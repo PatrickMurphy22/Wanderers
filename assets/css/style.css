@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+#hero-bg{
+    background: url('../images/cover-photo.jpg');
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+header{
+  height: 80px;  
+  width: 100%;
+  position: fixed;
+}
+#header-shader{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, .5);
+    position: fixed;
+}
+#title{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-left: 2%;
+    font-size: 170%;
+    font-family: teko, sans-serif;
+    letter-spacing: 4px;
+    margin-top: 1%;
+}
+#menu-list{
+    float: right;
+    margin-right: 2%;
+    word-spacing: 20px;
+    font-size: 180%;
+    font-family: teko, sans-serif;
+    margin-top: 1%;
+}
+#menu-list, #title{
+    line-height: 60px;
+}
+#menu-list li {    
+    list-style: none;
+    display: inline;
+}
+#menu-list a{
+    color: white;
+    text-decoration: none;
+}
