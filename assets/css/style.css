@@ -8,14 +8,13 @@
     height: 80px;
     width: 100%;
     background-color: rgb(94, 94, 94, .5);
-
 }
 #title{
     text-decoration: none;
     color: black;
     float: left;
     margin-left: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #menu{
     float: right;
@@ -26,7 +25,7 @@
 }
 #menu a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #menu li{
     list-style: none;
@@ -43,53 +42,81 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
 }
-#trip-section-container{
-    height: 650px;
+#travel-text{
+	padding-top: 20px;
+	width: 100%;
+	font-size: 200%;
+	text-align: center;
+}
+#box-container{
+    height: 660px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
 }
-.trip-box{
-    border: 1px black solid;
-    height: 400px;
-    width:400px;
-    border-radius: 25px;
-
+.box{
+    height:650px;
+    width: 34%;
 }
-#box1{
-    margin-right: 10%;
-    margin-top:5%;
-    background: url('../images/sinagpore-cover.jpg');
+#box1-child1, #box2-child1, #box3-child1{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+	margin-top: 10%;
+    border-radius: 30px;
+}
+#box1-child2, #box2-child2, #box3-child2{
+    height: 50px;
+    width: 200px;
+    margin:auto;
+    margin-top: 5%;
+    text-align: center;
+}
+#box1-child2 a, #box2-child2 a, #box3-child2 a{
+    text-decoration: none;
+    font-size: 200%;
+    color: black;
+    text-align: justify;
+}
+#box1-child1{
+    background: url('../images/Singapore-cover.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
-#box2{
-    margin-top:15%;
+#box2-child1{
     background: url('../images/marrakech-cover.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
-#box3{
-    margin-left: 10%;
-    margin-top:5%;
-    background: url('../images/amsterdam.jpg');
+#box3-child1{
+    background: url('../images/Amsterdam-cover.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
-#trip-header-text{
-    width: 100%;
-    border: 1px solid black;
-    height:40px;
+
+
+
+
+
+footer{
+    height: 150px;
+
+}
+.social-networks{
     text-align: center;
-    width: 300px;
-    margin: auto;
-    font-size: 250%;
-    font-weight: 700;
-    margin-top: 30px;
+}
+ .social-networks > li {
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a;
 }
