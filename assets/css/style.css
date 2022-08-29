@@ -4,52 +4,92 @@
     margin: 0;
     border: none;
 }
-#hero-bg{
-    background: url('../images/cover-photo.jpg');
-    height: 700px;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-
-}
-header{
-  height: 80px;  
-  width: 100%;
-  position: fixed;
-}
-#header-shader{
+#header-box{
     height: 80px;
     width: 100%;
-    background-color: rgb(0, 0, 0, .5);
-    position: fixed;
+    background-color: rgb(94, 94, 94, .5);
+
 }
 #title{
     text-decoration: none;
-    color: white;
+    color: black;
     float: left;
-    margin-left: 2%;
-    font-size: 170%;
-    font-family: teko, sans-serif;
-    letter-spacing: 4px;
-    margin-top: 1%;
+    margin-left: 20px;
+    color: white;
 }
-#menu-list{
+#menu{
     float: right;
-    margin-right: 2%;
-    word-spacing: 20px;
-    font-size: 180%;
-    font-family: teko, sans-serif;
-    margin-top: 1%;
+    margin-right: 20px;
 }
-#menu-list, #title{
-    line-height: 60px;
+#menu, #title{
+    line-height: 70px;
 }
-#menu-list li {    
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+#menu li{
     list-style: none;
     display: inline;
 }
-#menu-list a{
-    color: white;
-    text-decoration: none;
+#background-image-container{
+    height: 710px;
+    width: 100%;
+    position: relative;
+}
+#background-image{
+    background: url('../images/cover-photo.jpg');
+    height: 710px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#trip-section-container{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.trip-box{
+    border: 1px black solid;
+    height: 400px;
+    width:400px;
+    border-radius: 25px;
+
+}
+#box1{
+    margin-right: 10%;
+    margin-top:5%;
+    background: url('../images/sinagpore-cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box2{
+    margin-top:15%;
+    background: url('../images/marrakech-cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box3{
+    margin-left: 10%;
+    margin-top:5%;
+    background: url('../images/amsterdam.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trip-header-text{
+    width: 100%;
+    border: 1px solid black;
+    height:40px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-size: 250%;
+    font-weight: 700;
+    margin-top: 30px;
 }
