@@ -141,10 +141,10 @@
     background-size: cover;
     height:100%
 } 
-a{
+div a{
     position: relative;
 }
-a::before{
+div a::before{
     content: ' ';
     position: absolute ;
     width: 100%;
@@ -157,7 +157,7 @@ a::before{
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
 }
-a:hover::before{
+div a:hover::before{
     transform-origin: left;
     transform: scaleX(1);
 }
