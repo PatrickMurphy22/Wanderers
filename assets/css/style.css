@@ -1,9 +1,14 @@
+    /* ALL */
+
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 *{
     padding: 0;
     margin: 0;
     border: none;
 }
+
+    /* HEADER */
+
 #header-box{
     height: 80px;
     width: 100%;
@@ -64,10 +69,13 @@
     margin-top: 50vh;
     overflow: hidden;
 }
+
+    /* MIDDLE SECTION */
+
 #travel-text{
 	padding-top: 20px;
 	width: 100vw;
-	font-size: 10vh;
+	font-size: 7vh;
 	text-align: center;
 }
 #box-container{
@@ -162,84 +170,52 @@ div a:hover::before{
     transform: scaleX(1);
 }
 
-/* footer */
+    /* FOOTER */ 
 
 footer{
-    height: 150px;
-
+    height:60vh;
+    background-color: black;
 }
-.social-networks{
-    text-align: center;
-}
- .social-networks > li {
-    display: inline;
-}
-
-.social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color:#3a3a3a;
-}
-
-/* Sign up page */ 
-
-#signup-background-image-container{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-#signup-background-image{
-    background: url('');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+#footer-container{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
 }
 #signup-container{
-    margin: auto;
-    width:50vw;
-    height:100vh;
-    display: flex;
-    justify-content: space-evenly;
+    width: 30vw;
+    height:50vh;
+}
+#signup-form h2{
+    margin-top: 1vh;
+    color: white;
 }
 #signup-form{
-    margin-top: 30vh;
-    border: 2px rgb(0, 0, 0) solid;
     border-radius: 20px;
     height: 50vh;
     width: 30vw;
-    background-color: rgb(49, 49, 49, .2);
-}
-#signup-form h2{
-    text-align: center;
-    font-size: 5vh;
-    margin-top:2.5vh ;
 }
 .form-input{
     background: transparent;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     width: 17.5vw;
     height: 3vh;
     margin:0 0 5px 10px;
-    border: 1px solid #020202;
+    border-bottom:2px solid rgb(255, 255, 255);
     border-radius: 2px;
 }
 .text-form{
-    margin: auto;
+    color: white;
     justify-content:center;
     width: 20vw;
     margin-top: 5vh;
 }
 #full-name{
-    text-align: center;
+    color: white;
     font-size: 3vh;
     font-weight: 800;
     margin-bottom: 2vh;
 }
 #email-address{
-    text-align: center;
     font-size: 3vh;
     font-weight: 800;
 }
@@ -249,30 +225,31 @@ footer{
     font-weight: 800;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    color: white;
 }
 .submit{
+    width: 10vw;
     margin: auto;
-    border-radius: 2px;
-    padding:10px 25px 10px 25px;
     text-align: center;
-    font-size: 100%;
-    background-color: #030303;
-    color:#fafafa;
+    font-size: 3vh;
+    background-color: #fff6f6;
+    color:#000000;
     display: block
 }
-
-/* Contact page  */
-
-#contact-background-image-container{
-    height: 100vh;
-    width: 100%;
-    position: relative;
+#social-media-icons h2{
+    margin-top: 1vh;
+    color: white;
 }
-#contact-background-image{
-    background: url('');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+#social-media-icons{
+    width: 8vw;
+    margin-left: 2vh;
+}
+.social-networks i{
+    font-size: 5.5vh;
+    color:rgb(255, 255, 255);
+} 
+.social-networks li{
+    list-style: none;
+    text-align: center;
+    padding-top: 4vh;
 }
