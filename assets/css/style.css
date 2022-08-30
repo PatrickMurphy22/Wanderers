@@ -98,6 +98,7 @@ a:hover::before{
 .box{
     height:650px;
     width: 34%;
+    overflow: hidden;
 }
 #box1-child1, #box2-child1, #box3-child1{
     border: 1px solid rgb(0, 0, 0);
@@ -107,6 +108,9 @@ a:hover::before{
     margin: auto;
 	margin-top: 10%;
     border-radius: 30px;
+    transition: all 0.3s;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 #box1-child2, #box2-child2, #box3-child2{
     height: 50px;
@@ -114,7 +118,12 @@ a:hover::before{
     margin:auto;
     margin-top: 5%;
     text-align: center;
+    
 }
+#box1-child1:hover, #box2-child1:hover, #box3-child1:hover {
+    transform: scale(1.0) rotate(5deg);
+  }
+
 #box1-child2 a, #box2-child2 a, #box3-child2 a{
     text-decoration: none;
     font-size: 200%;
@@ -145,6 +154,13 @@ a:hover::before{
     width: 100%;
     background-color: aquamarine;
 }
+#hover-image{
+    background: url('../images/cover-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%
+} 
 
 footer{
     height: 150px;
