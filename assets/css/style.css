@@ -19,7 +19,7 @@
     font-size: 200%;
     font-family: teko, sans-serif;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     float: left;
 }
 #menu{
@@ -34,7 +34,7 @@
 }
 #menu a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #menu li{
     list-style: none;
@@ -77,20 +77,24 @@
 	width: 100vw;
 	font-size: 7vh;
 	text-align: center;
+    color: white;
+    background-color: black;
 }
 #box-container{
     height: 660px;
     width: 100%;
     display: flex;
+    background-color: black;
 }
 .box{
     height:650px;
     width: 34%;
     overflow: hidden;
+    background-color: black;
 }
 #box1-child1, #box2-child1, #box3-child1{
     border: 1px solid rgb(0, 0, 0);
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 60vh;
     width: 30vw;
     margin: auto;
@@ -115,7 +119,7 @@
 #box1-child2 a, #box2-child2 a, #box3-child2 a{
     text-decoration: none;
     font-size: 200%;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: justify;
 }
 #box1-child1{
@@ -158,7 +162,7 @@ div a::before{
     width: 100%;
     height: 4px;
     border-radius: 4px;
-    background-color: #18272F;
+    background-color: #ffffff;
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -173,7 +177,7 @@ div a:hover::before{
     /* FOOTER */ 
 
 footer{
-    height:60vh;
+    height:50vh;
     background-color: black;
 }
 #footer-container{
@@ -220,8 +224,8 @@ footer{
     font-weight: 800;
 }
 #radio{
-    text-align: center;
-    font-size: 3vh;
+    text-align: left;
+    font-size: 2vh;
     font-weight: 800;
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -229,7 +233,7 @@ footer{
 }
 .submit{
     width: 10vw;
-    margin: auto;
+    margin-left:5vw;
     text-align: center;
     font-size: 3vh;
     background-color: #fff6f6;
@@ -245,7 +249,7 @@ footer{
     margin-left: 2vh;
 }
 .social-networks i{
-    font-size: 5.5vh;
+    font-size: 4vh;
     color:rgb(255, 255, 255);
 } 
 .social-networks li{
@@ -253,3 +257,24 @@ footer{
     text-align: center;
     padding-top: 4vh;
 }
+
+    /* CONTACT */ 
+
+    #about-background-image-container{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    #about-background-image{
+        background-color:black;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #about-container{
+        border: white 1px solid;
+        height:100vh;
+        width: 100vw;
+    }
