@@ -67,13 +67,20 @@
     display: flex;
     justify-content: space-evenly;
 }
-#slogan{
+#slogan-header{
     font-family: teko, sans-serif;
-    font-size: 10vh;
+    font-size: 15vh;
     text-align: center;
-    height:200px;
+    height:150px;
     margin-top: 50vh;
     overflow: hidden;
+    letter-spacing: 3px;
+}
+#slogan-text{
+    font-family: teko, sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    letter-spacing: 3px;
 }
 
     /* MIDDLE SECTION */
@@ -192,87 +199,25 @@ div a:hover::before{
 footer{
     max-width: 100%;
     width: 100vw;
-    height:50vh;
+    height:30vh;
+    max-height: 100%;
     background-color: black;
     font-family: teko, sans-serif;
     letter-spacing: 4px;
     border-top: 2px white solid;
 }
 #footer-container{
-    height: 50vh;
-    width: 40vw;
-    display: flex;
-    margin-left: 30vw;
-}
-#signup-container{
-    width: 30vw;
-    height:50vh;
-    margin-left:1vw;
-
-}
-#signup-form h2{
-    margin-top: 1vh;
-    color: white;
-}
-#signup-form{
-    border-radius: 20px;
-    height: 50vh;
-    width: 30vw;
-}
-.form-input{
-    background: transparent;
-    color:rgb(255, 255, 255);
-    width: 17.5vw;
-    height: 3vh;
-    margin:0 0 5px 10px;
-    border-bottom: 3px solid rgb(255, 255, 255);
-    border-radius: 2px;
-}
-.text-form{
-    color: white;
-    justify-content:center;
-    width: 20vw;
-    margin-top: 5vh;
-}
-#full-name{
-    color: white;
-    font-size: 3vh;
-    font-weight: 800;
-    margin-bottom: 2vh;
-}
-#email-address{
-    font-size: 3vh;
-    font-weight: 800;
-}
-#radio{
-    text-align: left;
-    font-size: 3vh;
-    font-weight: 800;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    color: white;
-}
-.submit{
-    width: 10vw;
-    margin-left:5vw;
-    margin-bottom: 1vh;
-    text-align: center;
-    font-size: 3vh;
-    background-color: #fff6f6;
-    color:#000000;
-    display: block
-}
-.submit:hover{
-    background-color: rgb(36, 36, 36);
-    color: white;
+    height: 30vh;
 }
 #social-media-icons h2{
     margin-top: 1vh;
     color: white;
+    text-align: center;
 }
 #social-media-icons{
-    width: 8vw;
-    margin-left: 2vh;
+    margin:1%;
+    width: 30vw;
+    margin: auto;
 }
 .social-networks i{
     font-size: 4vh;
@@ -281,7 +226,8 @@ footer{
 .social-networks li{
     list-style: none;
     text-align: center;
-    padding-top: 4vh;
+    padding:7.5%;
+    display: inline;
 }
 
     /* CONTACT */ 
@@ -344,6 +290,73 @@ footer{
     #map iframe{
         height:57vh;
         width:30vw;
+    }
+    #signup-container{
+        width: 50vw;
+        height:50vh;
+        font-size: 200%;
+        margin-left: 20vw;
+        margin-top: 1%;
+    
+    }
+    #signup-form h2{
+        font-size: 8vh;
+        color: white;
+        text-align: center;
+    }
+    #signup-form{
+        border-radius: 20px;
+        height: 50vh;
+        width: 30vw;
+    }
+    .form-input{
+        background: transparent;
+        color:rgb(255, 255, 255);
+        width: 17.5vw;
+        height: 4vh;
+        font-size: 3vh;
+        margin:0 0 5px 10px;
+        border-bottom: 3px solid rgb(255, 255, 255);
+        border-radius: 2px;
+    }
+    .text-form{
+        color: white;
+        justify-content:center;
+        width: 20vw;
+        margin-top: 5vh;
+    }
+    #full-name{
+        color: white;
+        font-size: 4vh;
+        font-weight: 800;
+        margin-bottom: 2vh;
+    }
+    #email-address{
+        font-size: 4vh;
+        font-weight: 800;
+    }
+    #radio{
+        text-align: left;
+        font-size: 4vh;
+        font-weight: 800;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        letter-spacing: 2px;
+        color: white;
+    }
+    .submit{
+        width: 10vw;
+        margin-left:5vw;
+        margin-bottom: 1vh;
+        margin: auto;
+        font-size: 3vh;
+        background-color: #fff6f6;
+        color:#000000;
+        display: block
+    }
+    .submit:hover{
+        background-color: rgb(36, 36, 36);
+        color: white;
     }
 
     /* DESTINATIONS */ 
