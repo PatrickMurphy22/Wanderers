@@ -82,6 +82,20 @@
     text-align: center;
     letter-spacing: 3px;
 }
+#slogan a{
+    text-decoration: none;
+    text-align: center;
+    margin-left:12vw;
+    padding: .5% 3% .5% 3%;
+    font-size: 150%;
+    background-color: rgb(232, 137, 103);
+    color: white;
+    border-radius: 10px;
+}
+#slogan a:hover{
+    background-color: white;
+    color:rgb(232, 137, 103);
+}
 
     /* INDEX MIDDLE SECTION */
 
@@ -107,19 +121,19 @@
         text-align: center; 
       }
       .sec1-box{
-        background: url('../images/Amsterdam-cover.jpg');
+        background: url('../images/amsterdam\ index.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
       }
       .sec2-box{
-        background: url('../images/Singapore-cover.jpg');
+        background: url('../images/singapore\ index.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
       }
       .sec3-box{
-        background: url('../images/marrakech-cover.jpg');
+        background: url('../images/marrakech\ index.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -501,13 +515,13 @@ footer{
     /* CSS STYLE ANIMATION */
     
     
-        div a {
+        header a, #section-2 a {
         display: inline-block;
         position: relative;
-        color: #0087ca;
+        color: #ffffff;
       }
       
-      div a:after {
+      header a:after, #section-2 a:after {
         content: '';
         position: absolute;
         width: 100%;
@@ -515,12 +529,12 @@ footer{
         height: 2px;
         bottom: 0;
         left: 0;
-        background-color: #0087ca;
+        background-color: #ffffff;
         transform-origin: bottom right;
         transition: transform 0.25s ease-out;
       }
       
-      div a:hover:after {
+      header a:hover:after, #section-2 a:hover:after {
         transform: scaleX(1);
         transform-origin: bottom left;
       }
