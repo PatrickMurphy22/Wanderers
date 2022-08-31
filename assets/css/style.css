@@ -15,7 +15,6 @@
     height: 80px;
     width: 100vw;
     max-width: 100%;
-    position: fixed;
 }
 #title{
     margin: .5% 0 0 2%;
@@ -88,24 +87,37 @@
     margin-left:12vw;
     padding: .5% 3% .5% 3%;
     font-size: 150%;
-    background-color: rgb(232, 137, 103);
-    color: white;
+    background: rgb(207,164,148);
+    background: radial-gradient(circle, rgba(207,164,148,1) 0%, rgba(223,144,105,1) 100%);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 #slogan a:hover{
-    background-color: white;
-    color:rgb(232, 137, 103);
+    background: rgb(255,182,155);
+    background: radial-gradient(circle, rgba(255,182,155,1) 0%, rgba(95,98,107,1) 100%);
+    color: black;
 }
+    /* SECTION " */
+#section-2{
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+}
+#section-2-container{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    color: white;
+}
+    /* SECTION 3 */
 
-    /* INDEX MIDDLE SECTION */
-
-    #section-2{
+    #section-3{
         height: 100vh;
         width:100vw;
         max-width: 100%;
         background-color: white;
     }
-    #section-2-container{
+    #section-3-container{
         height: 100vh;
         width: 100vw;
         max-width: 100%;
@@ -140,7 +152,7 @@
 
       }
       
-      .section-2-container * {
+      .section-3-container * {
         box-sizing: border-box;
         transition: all 0.45s ease;
       }
@@ -515,13 +527,13 @@ footer{
     /* CSS STYLE ANIMATION */
     
     
-        header a, #section-2 a {
+        header a, #section-3 a {
         display: inline-block;
         position: relative;
         color: #ffffff;
       }
       
-      header a:after, #section-2 a:after {
+      header a:after, #section-3 a:after {
         content: '';
         position: absolute;
         width: 100%;
@@ -534,7 +546,22 @@ footer{
         transition: transform 0.25s ease-out;
       }
       
-      header a:hover:after, #section-2 a:hover:after {
+      header a:hover:after, #section-3 a:hover:after {
         transform: scaleX(1);
         transform-origin: bottom left;
       }
+
+      /* ABOUT */ 
+    
+    #about-background-container{
+        height: 100vh;
+        width: 100vw;
+    }
+    #about-background-image{
+        background:url('../images/about\ background.jpg');
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
