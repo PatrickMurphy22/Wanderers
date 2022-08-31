@@ -357,37 +357,38 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
-    #trip1-container{
+    #trip1-container, #trip3-container{
         max-width: 100%;
         width: 100vw;
         height:100vh;
         display: flex;
         color: white;
     }
-    #trip1-box{
+    #trip1-box, #trip3-box{
         height: 80vh;
         width: 50vw;
         margin-top: 10vh;
     }
-    .trip1{
+    .trip1, .trip3{
         width: 50vw;
         height: 30vh;
     }
-    .trip1-text h2{
+    .trip1-text h2, .trip3-text h2{
         text-align: center;
         font-size: 10vh;
     }
-    .trip1-text p{
+    .trip1-text p, .trip3-text p{
         text-align: center;
         font-size: 5vh;
     }
-    .trip1-link p{
+    .trip1-link p, .trip-link p{
         font-size: 5vh;
         text-align: center;
     }
     .trip1-link a{
-        margin-left:50%;
+        margin-left:45%;
         font-size: 4vh;
         padding: 5px 15px 5px 15px;
         border-radius: 10px;
@@ -399,4 +400,89 @@ footer{
     .trip1-link a:hover{
         color: rgb(51, 7, 55);
         background-color: white;
+    }
+    #trip2-background-image{
+        background: url('../images/marrakech-bg.jpg');
+        height: 100vh;
+        width: 100vw;
+        max-width: 100%;
+        background-color: rgb(0, 0, 0);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #trip2-container{
+        max-width: 100%;
+        width: 100vw;
+        height:100vh;
+        display: flex;
+        color: rgb(0, 0, 0);
+    }
+    #trip2-box{
+        height: 80vh;
+        width: 50vw;
+        margin-top: 10vh;
+        margin-left: 45vw;
+    }
+    .trip2{
+        width: 50vw;
+        height: 30vh;
+    }
+    .trip2-text h2{
+        text-align: center;
+        font-size: 10vh;
+    }
+    .trip2-text p{
+        text-align: center;
+        font-size: 5vh;
+    }
+    .trip2-link{
+        font-size: 5vh;
+        margin-top: 7%;
+    }
+    .trip2-link a{
+        margin-left:47%;
+        font-size: 4vh;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(211, 161, 120);
+        text-decoration: none;
+        border: 1px rgb(0, 0, 0) solid;
+    }
+    .trip2-link a:hover{
+        color: rgb(211, 161, 120);
+        background-color: white;
+        border: rgb(211, 161, 120);
+    }
+    #trip3-background-image{
+        background: url('../images/amsterdam-bg.jpg');
+        height: 100vh;
+        width: 100vw;
+        max-width: 100%;
+        background-color: rgb(0, 0, 0);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .trip3-link{
+        font-size: 5vh;
+        margin-top: 7%;
+    }
+    .trip3-link a{
+        margin-left:47%;
+        font-size: 4vh;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(36, 43, 54);
+        text-decoration: none;
+        border: 1px rgb(36, 43, 54) solid;
+    }
+    .trip3-link a:hover{
+        color: rgb(36, 43, 54);
+        background-color: white;
+        border: rgb(255, 255, 255);
     }
