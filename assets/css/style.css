@@ -556,12 +556,98 @@ footer{
     #about-background-container{
         height: 100vh;
         width: 100vw;
+        max-width: 100%;
     }
-    #about-background-image{
-        background:url('../images/about\ background.jpg');
+    #about-background{
+        background-color: black;
+        height: 90vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #about1{
+        margin: 10% 50% 0 14.7%;
+        width: 45vw;
+        height:50vh;
+        color: white;
+        font-size: 120%;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    #about1 h2{
+        font-size: 300%;
+    }
+    #about2-container, #about3-container, #about4-container, #about5-container{
+        max-width: 100%;
         height: 100vh;
         width: 100vw;
+        background-color: black;
+        display: flex;
+    }
+    #about2-image{
+        background: url('../images/index\ background\ 1.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        width: 70vw;
+        height: 100vh;
+        margin:auto;
+    }
+    .about3{
+        width: 35vw;
+        height: 85vh;
+    }
+    .about3-text{
+        color: white;
+        padding-top: 15vh;
+        margin-left: 14.7vw;
+        font-size: 120%;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .about3-text h2{
+        font-size: 300%;
+    }
+    .about3-image{
+        background: url('../images/about\ 3\ .jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        margin-top: 15vh;
+        margin-right: 14.7vw
+    }
+    #about4-image{
+        background: url('../images/about-bg-image-2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70vw;
+        height: 100vh;
+        margin:auto;
+    }
+     .about5{
+        width: 35vw;
+        height: 100vh;
+    }
+    
+    .about5-text{
+        color: white;
+        padding-top: 15vh;
+        margin-right: 14.7vw;
+        font-size: 120%;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .about5-text h2{
+        font-size: 300%;
+    }
+    
+    .about5-image{
+        background: url('../images/about-image-4.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        margin-top: 15vh;
+        margin-left: 14.7vw
     }
