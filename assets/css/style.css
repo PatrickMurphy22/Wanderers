@@ -702,44 +702,53 @@ footer{
         max-width: 100%;
     }
     #singapore-about-container, #singapore-about-container2, #singapore-about-container3{
-        border: white solid 1px;
         height: 80vh;
         width: 100vw;
         display: flex;
+        max-width: 100%;
     }
     .singapore-about1, .singapore-about3{
         height: 80vh;
     }
     .singapore-box1, .singapore-box4, .singapore-box5{
-        width: 30vw;
+        width: 40vw;
+        padding:1%;
     }
     .singapore-box2{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/singapore\ about2.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 70vw;
+        width: 55vw;
     }
     .singapore-box1 h2, .singapore-box4 h2, .singapore-box5 h2{
         text-align: center;
         font-size: 400%;
     }
+    #sbox5 {
+        font-size: 130%;
+        padding: 2%;
+    }
+    .singapore-box1 p, .singapore-box4 p{
+        font-size:130%;
+        padding: 1%;
+    }
     .singapore-about2{
         height: 80vh;
     }
     .singapore-box3{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/singapore\ about3.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 70vw;
+        width: 55vw;
     }
     .singapore-box6{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/singapore\ about4.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 70vw;
+        width: 55vw;
     }
 
     /* AMSTERDAM */ 
