@@ -677,15 +677,27 @@ footer{
     
     /* SINGAPORE */ 
 
-    #singapore-background-container, #singapore-background-container2, #singapore-background-container3{
+    #singapore-background-container{
         height: 100vh;
         width: 100vw;
         background-color: #000;
         max-width: 100%;
         color:white;
     }
-    #singapore-background1, #singapore-background2, #singapore-background3{
+    #singapore-background-container2, #singapore-background-container3{
+        height: 90vh;
+        width: 100vw;
+        background-color: #000;
+        max-width: 100%;
+        color:white;
+    }
+    #singapore-background1{
         height: 100vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #singapore-background2, #singapore-background3{
+        height: 80vh;
         width: 100vw;
         max-width: 100%;
     }
@@ -723,6 +735,140 @@ footer{
         width: 70vw;
     }
     .singapore-box6{
+        background: url('../images/singaporeabout1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70vw;
+    }
+
+    /* AMSTERDAM */ 
+
+    #marrakech-background-container{
+        height: 100vh;
+        width: 100vw;
+        background-color: #000;
+        max-width: 100%;
+        color:white;
+    }
+    #marrakech-background-container2, #marrakech-background-container3{
+        height: 90vh;
+        width: 100vw;
+        background-color: #000;
+        max-width: 100%;
+        color:white;
+    }
+    #marrakech-background1{
+        height: 100vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #marrakech-background2, #marrakech-background3{
+        height: 80vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #marrakech-about-container, #marrakech-about-container2, #marrakech-about-container3{
+        border: white solid 1px;
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+    }
+    .marrakech-about1, .marrakech-about3{
+        height: 80vh;
+    }
+    .marrakech-box1, .marrakech-box4, .marrakech-box5{
+        width: 30vw;
+    }
+    .marrakech-box2{
+        background: url('../images/singaporeabout1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70vw;
+    }
+    .marrakech-box1 h2, .marrakech-box4 h2, .marrakech-box5 h2{
+        text-align: center;
+        font-size: 400%;
+    }
+    .marrakech-about2{
+        height: 80vh;
+    }
+    .marrakech-box3{
+        background: url('../images/singaporeabout1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70vw;
+    }
+    .marrakech-box6{
+        background: url('../images/singaporeabout1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70vw;
+    }
+
+      /* MARRAKECH */ 
+
+      #amsterdam-background-container{
+        height: 100vh;
+        width: 100vw;
+        background-color: #000;
+        max-width: 100%;
+        color:white;
+    }
+    #amsterdam-background-container2, #amsterdam-background-container3{
+        height: 90vh;
+        width: 100vw;
+        background-color: #000;
+        max-width: 100%;
+        color:white;
+    }
+    #amsterdam-background1{
+        height: 100vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #amsterdam-background2, #amsterdam-background3{
+        height: 80vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #amsterdam-about-container, #amsterdam-about-container2, #amsterdam-about-container3{
+        border: white solid 1px;
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+    }
+    .singapore-about1, .singapore-about3{
+        height: 80vh;
+    }
+    .amsterdam-box1, .amsterdam-box4, .amsterdam-box5{
+        width: 30vw;
+    }
+    .amsterdam-box2{
+        background: url('../images/singaporeabout1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70vw;
+    }
+    .amsterdam-box1 h2, .amsterdam-box4 h2, .amsterdam-box5 h2{
+        text-align: center;
+        font-size: 400%;
+    }
+    .amsterdam-about2{
+        height: 80vh;
+    }
+    .amsterdam-box3{
+        background: url('../images/singaporeabout1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70vw;
+    }
+    .amsterdam-box6{
         background: url('../images/singaporeabout1.jpg');
         background-position: center;
         background-repeat: no-repeat;
