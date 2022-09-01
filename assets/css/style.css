@@ -7,6 +7,7 @@
     border: none;
     font-family: teko, sans-serif;
 
+
 }
 
     /* HEADER */
@@ -101,10 +102,12 @@
 #section-2{
     width: 100vw;
     height: 30vh;
+    max-width: 100%;
     background-color: black;
 }
 #section-2-container{
     width: 100vw;
+    max-width: 100%;
     height: 30vh;
     display: flex;
     color: white;
@@ -725,11 +728,7 @@ footer{
         text-align: center;
         font-size: 400%;
     }
-    #sbox5 {
-        font-size: 130%;
-        padding: 2%;
-    }
-    .singapore-box1 p, .singapore-box4 p{
+    .singapore-box1 p, .singapore-box4 p, .singapore-box5 p{
         font-size:130%;
         padding: 1%;
     }
@@ -751,7 +750,7 @@ footer{
         width: 55vw;
     }
 
-    /* AMSTERDAM */ 
+    /* MARRAKECH */ 
 
     #marrakech-background-container{
         height: 100vh;
@@ -775,13 +774,17 @@ footer{
     #marrakech-background2, #marrakech-background3{
         height: 80vh;
         width: 100vw;
-        max-width: 100%;
+        max-width: 100%; 
+    }
+    .marrakech-box1 p, .marrakech-box4 p, .marrakech-box5 p{
+        font-size:130%;
+        padding: 1.5%;
     }
     #marrakech-about-container, #marrakech-about-container2, #marrakech-about-container3{
-        border: white solid 1px;
         height: 80vh;
         width: 100vw;
         display: flex;
+        max-width: 100%;
     }
     .marrakech-about1, .marrakech-about3{
         height: 80vh;
@@ -790,7 +793,7 @@ footer{
         width: 30vw;
     }
     .marrakech-box2{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/marrakech3.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -804,21 +807,21 @@ footer{
         height: 80vh;
     }
     .marrakech-box3{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/marrakech\ ABOUT2.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 70vw;
     }
     .marrakech-box6{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/marrakech\ about1.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 70vw;
     }
 
-      /* MARRAKECH */ 
+      /* AMSTERDAM */ 
 
       #amsterdam-background-container{
         height: 100vh;
@@ -845,23 +848,28 @@ footer{
         max-width: 100%;
     }
     #amsterdam-about-container, #amsterdam-about-container2, #amsterdam-about-container3{
-        border: white solid 1px;
         height: 80vh;
         width: 100vw;
         display: flex;
+        max-width: 100%;
     }
-    .singapore-about1, .singapore-about3{
+    .amsterdam-about1, .amsterdam-about3{
         height: 80vh;
     }
     .amsterdam-box1, .amsterdam-box4, .amsterdam-box5{
         width: 30vw;
     }
+    .amsterdam-box1 p, .amsterdam-box4 p, .amsterdam-box5 p{
+        font-size:130%;
+        padding: 1.5%;
+    }
     .amsterdam-box2{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/amasterdam\ about1.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 70vw;
+        max-width: 100%;
     }
     .amsterdam-box1 h2, .amsterdam-box4 h2, .amsterdam-box5 h2{
         text-align: center;
@@ -871,16 +879,18 @@ footer{
         height: 80vh;
     }
     .amsterdam-box3{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/amsterdam\ about3.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 70vw;
+        max-width: 100%;
     }
     .amsterdam-box6{
-        background: url('../images/singaporeabout1.jpg');
+        background: url('../images/amsterdam\ about2.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 70vw;
+        max-width: 100%;
     }
