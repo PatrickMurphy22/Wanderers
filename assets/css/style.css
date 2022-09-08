@@ -6,23 +6,21 @@
     margin: 0;
     border: none;
     font-family: teko, sans-serif;
-
-
-}
+    color: white;
+}       
 
     /* HEADER */
 
 #header-box{
-    height: 80px;
+    height: 20vh;
     width: 100vw;
     max-width: 100%;
 }
 #title{
     margin: .5% 0 0 2%;
-    font-size: 200%;
+    font-size: 175%;
     font-family: teko, sans-serif;
     text-decoration: none;
-    color: rgb(255, 255, 255);
     float: left;
 }
 #menu{
@@ -37,19 +35,21 @@
 }
 #menu a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
 }
 #menu li{
     list-style: none;
     display: inline;
 }
-#index-background-image-container{
+
+/* INDEX */
+
+#background-container{
     height: 100vh;
     width: 100vw;
     max-width: 100%;
     position: relative;
 }
-#index-background-image{
+#index-background{
     background: url('../images/index\ background\ 3.jpg');
     height: 100vh;
     width: 100vw;
@@ -60,14 +60,19 @@
     background-attachment: fixed;
 }
 #slogan-container{
-    color: rgb(255, 255, 255);
     margin: auto;
-    width:50vw;
-    height:100vh;
-    display: flex;
-    justify-content: space-evenly;
+    width:100vw;
+    height:80vh;
+    font-size: 300%;
 }
-#slogan-header{
+#slogan{
+    margin: auto;
+    height: 70vh;
+    width: 80vw;
+    text-align: center;
+    margin-top: 5%;
+}
+/* #slogan-header{
     font-family: teko, sans-serif;
     font-size: 15vh;
     text-align: center;
@@ -81,16 +86,13 @@
     font-size: 5vh;
     text-align: center;
     letter-spacing: 3px;
-}
+} */
 #slogan a{
     text-decoration: none;
-    text-align: center;
-    margin-left:12vw;
-    padding: .5% 3% .5% 3%;
-    font-size: 150%;
+    padding: .25% 1% .25% 1%;
+    font-size: 45%;
     background: rgb(207,164,148);
     background: radial-gradient(circle, rgba(207,164,148,1) 0%, rgba(223,144,105,1) 100%);
-    color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 #slogan a:hover{
@@ -98,129 +100,131 @@
     background: radial-gradient(circle, rgba(255,182,155,1) 0%, rgba(95,98,107,1) 100%);
     color: black;
 }
+
     /* SECTION " */
-#section-2{
+
+#index-section2{
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     max-width: 100%;
-    background-color: black;
+    background-color: rgb(165, 115, 97);
 }
-#section-2-container{
+#index-section2-container{
     width: 100vw;
-    max-width: 100%;
     height: 30vh;
-    display: flex;
-    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 175%;
 }
     /* SECTION 3 */
 
-    #section-3{
-        height: 100vh;
-        width:100vw;
-        max-width: 100%;
-        background-color: white;
+#index-section3{
+    height: 100vh;
+    width:100vw;
+    max-width: 100%;
+    background-color: white;
     }
-    #section-3-container{
-        height: 100vh;
-        width: 100vw;
-        max-width: 100%;
-        display: flex;
+#index-section3-container{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
     }
-    .sec1-box, .sec2-box, .sec3-box {
-        background-color: #000;
-        color: #fff;
-        display: inline-block;
-        width: 33.333vw;
-        height: 100vh;
-        overflow: hidden;
-        position: relative;
-        text-align: center; 
+.sec1-box, .sec2-box, .sec3-box {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    width: 33.333vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center; 
       }
-      .sec1-box{
-        background: url('../images/amsterdam\ index.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+.sec1-box{
+    background: url('../images/amsterdam\ index.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
       }
-      .sec2-box{
-        background: url('../images/singapore\ index.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+.sec2-box{
+    background: url('../images/singapore\ index.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
       }
-      .sec3-box{
-        background: url('../images/marrakech\ index.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+.sec3-box{
+    background: url('../images/marrakech\ index.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      }
+      
+#index-section3-container * {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+      }
+      
+.sec1-box:before, .sec1-box:after, .sec2-box:before, .sec2-box:after, .sec3-box:before, .sec3-box:after{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 32px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+      }
+      
+.sec1-box  img, .sec2-box  img, .sec3-box  img {
+    vertical-align: top;
+    max-width: 33vw;
+    backface-visibility: hidden;
+      }
+      
+.sec1-box div, .sec2-box div, .sec3-box div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1em;
+    opacity: 0;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+      }
+      
+.sec1-box a, .sec2-box a, .sec3-box a{
+    text-decoration: none;
+    color: white;
+      }
 
+.sec1-box:hover:before, .sec1-box:hover:after, .sec2-box:hover:before, .sec2-box:hover:after, .sec3-box:hover:before, .sec3-box:hover:after {
+    transform: scale(1);
+    opacity: 1;
       }
       
-      .section-3-container * {
-        box-sizing: border-box;
-        transition: all 0.45s ease;
+.sec1-box:hover > img, .sec2-box:hover > img, .sec3-box:hover > img {
+    opacity: 0.7;
       }
-      
-      .sec1-box:before, .sec1-box:after, .sec2-box:before, .sec2-box:after, .sec3-box:before, .sec3-box:after{
-        background-color: rgba(0, 0, 0, 0.5);
-        border-top: 32px solid rgba(0, 0, 0, 0.5);
-        border-bottom: 32px solid rgba(0, 0, 0, 0.5);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        content: '';
-        transition: all 0.3s ease;
-        z-index: 1;
-        opacity: 0;
-        transform: scaleY(2);
-      }
-      
-      .sec1-box  img, .sec2-box  img, .sec3-box  img {
-        vertical-align: top;
-        max-width: 33vw;
-        backface-visibility: hidden;
-      }
-      
-      .sec1-box div, .sec2-box div, .sec3-box div {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        align-items: center;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        line-height: 1.1em;
-        opacity: 0;
-        z-index: 2;
-        transition-delay: 0.1s;
-        font-size: 24px;
-        font-family: sans-serif;
-        font-weight: 400;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-      }
-      
-      .sec1-box a, .sec2-box a, .sec3-box a{
-        text-decoration: none;
-        color: white;
-      }
-      .sec1-box:hover:before, .sec1-box:hover:after, .sec2-box:hover:before, .sec2-box:hover:after, .sec3-box:hover:before, .sec3-box:hover:after {
-        transform: scale(1);
-        opacity: 1;
-      }
-      
-      .sec1-box:hover > img, .sec2-box:hover > img, .sec3-box:hover > img {
-        opacity: 0.7;
-      }
-      
-      .sec1-box:hover div, .sec2-box:hover div, .sec3-box:hover div {
-        opacity: 1;
-      }
+
+.sec1-box:hover div, .sec2-box:hover div, .sec3-box:hover div {
+   opacity: 1;
+}
 
     /* FOOTER */ 
 
@@ -238,23 +242,23 @@ footer{
     height: 30vh;
 }
 #social-media-icons h2{
-    margin-top: 1vh;
+    margin-top: 2%;
     color: white;
     text-align: center;
 }
 #social-media-icons{
-    margin:1%;
-    width: 30vw;
+    width: 50vw;
     margin: auto;
+    text-align: center;
 }
 .social-networks i{
-    font-size: 4vh;
+    font-size: 5vh;
     color:rgb(255, 255, 255);
 } 
 .social-networks li{
     list-style: none;
     text-align: center;
-    padding:7.5%;
+    margin:0 5% 0 5%;
     display: inline;
 }
 
