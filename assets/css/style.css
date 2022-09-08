@@ -640,123 +640,83 @@ footer{
 
       /* ABOUT */ 
     
-    #about-background-container{
-        height: 100vh;
-        width: 100vw;
-        max-width: 100%;
-    }
-    #about-background{
-        background-color: black;
+     #about-background-container{
         height: 90vh;
         width: 100vw;
         max-width: 100%;
+        background-color: #000;
     }
-    #about1{
-        margin: 10% 50% 0 14.7%;
-        width: 45vw;
-        height:50vh;
-        color: white;
-        font-size: 120%;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-    }
-    #about1 h2{
-        font-size: 300%;
-    }
-    #about2-container, #about3-container, #about4-container, #about5-container{
+    
+    #about-background1{
+        height: 90vh;
+        width: 100vw;
         max-width: 100%;
+        border: 2px solid red;
+    }
+
+    #about1{
+        border: solid 2px green;
+        height: 60vh;
+        width: 80vw;
+        margin: auto;
+        margin-top: 10vh;
+    }
+    #about2, #about3, #about4, #about5{
+        border: 2px yellow solid;
         height: 100vh;
         width: 100vw;
-        background-color: black;
-        display: flex;
+        background-color: #000;
+    }
+    #about2-image-container, #about4-image-container{
+        border: solid 2px green;
+        height: 100vh;
+        width: 80vw;
+        margin: auto;
     }
     #about2-image{
-        background: url('../images/index\ background\ 1.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70vw;
-        height: 100vh;
-        margin:auto;
-    }
-    .about3{
-        width: 35vw;
-        height: 85vh;
-    }
-    .about3-text{
-        color: white;
-        padding-top: 15vh;
-        margin-left: 14.7vw;
-        font-size: 120%;
-        letter-spacing: 2px;
-        word-spacing: 2px;
-    }
-    .about3-text h2{
-        font-size: 300%;
-    }
-    .about3-image{
-        background: url('../images/about\ 3\ .jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 50vh;
-        margin-top: 15vh;
-        margin-right: 14.7vw
-    }
-    #about4-image{
         background: url('../images/about-bg-image-2.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 70vw;
         height: 100vh;
-        margin:auto;
+        width: 80vw;
     }
-     .about5{
-        width: 35vw;
+    #about3-container, #about5-container{
+        border:2px blue solid;
         height: 100vh;
+        width: 80vw;
+        margin: auto;
+        display: flex;
     }
-    
-    .about5-text{
-        color: white;
-        padding-top: 15vh;
-        padding-left: 1vw;
-        margin-right: 14.7vw;
-        font-size: 120%;
-        letter-spacing: 2px;
-        word-spacing: 2px;
+    .about-3, .about-5{
+        border: 2px white solid;
+        height:90vh;
+        width:40vw;
+        margin-top: 3vh;
     }
-    .about5-text h2{
-        font-size: 300%;
+    .box2, .box3{
+        height:60vh;
     }
-    
-    .about5-image{
+    .box2{
+        background: url('../images/about\ 3\ .jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box3{
         background: url('../images/about-image-4.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 50vh;
-        margin-top: 15vh;
-        margin-left: 14.7vw
     }
-    .about5-text a{
-        text-decoration: none;
-        background-color: #fff6f6;
-        color: #000;
-        padding: 2% 3% 2% 3%;
-        border-radius: 10px;
+    #about4-image{
+        background: url('../images/index\ background\ 1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 80vw;
     }
-    #about-cta{
-        height: 10vh;
-        width: 30vw;
-        text-align: center;
-        padding: 10%;
-    }
-    .about5-text a:hover{
-        background-color: rgb(59, 125, 192);
-        color: #000;
-    }
-    
     /* SINGAPORE */ 
 
     #singapore-background-container{
