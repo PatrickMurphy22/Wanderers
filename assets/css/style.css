@@ -181,13 +181,14 @@
     height: 20vh;
     max-width: 100%;
     background-color: rgb(165, 115, 97);
+    font-size: 4vh;
 }
 #index-section2-container{
     width: 100vw;
     height: 30vh;
     margin: auto;
     text-align: center;
-    font-size: 175%;
+    font-size: 100%;
 }
     /* SECTION 3 */
 
@@ -364,7 +365,7 @@ footer{
     }
     #contact-info-container{
         height:90vh;
-        width: 30vw;
+        width: 50vw;
         margin-left: 5vw;
     }
     #contact-head{
@@ -393,14 +394,14 @@ footer{
         margin-bottom: 1vh;
     }
     #map iframe{
-        height:57vh;
-        width:30vw;
+        height:52vh;
+        width:50vw;
     }
     #signup-container{
         width: 50vw;
         height:50vh;
         font-size: 200%;
-        margin-left: 20vw;
+        margin-left: 5vw;
         margin-top: 1%;
     
     }
@@ -450,11 +451,12 @@ footer{
         color: white;
     }
     .submit{
-        width: 10vw;
+        padding: 2.5% 5% 2.5% 5%;
+        width: 80px;
         margin-left:5vw;
         margin-bottom: 1vh;
         margin: auto;
-        font-size: 3vh;
+        font-size: 16px;
         background-color: #fff6f6;
         color:#000000;
         display: block
@@ -1013,4 +1015,105 @@ footer{
         .menu > li:not(:last-child) {
           border-bottom: 1px solid #444;
         }
+
+        /* CONTACT QUERY */
+
+        #contact-background-image-container{
+            height: 170vh;
+            background-color: black;
+        }
+
+        #contact-container{
+            height:100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+        }
+        #contact-info-container{
+            width: 90vw;
+            margin: auto;
+        }
+
+        #contact-head{
+            text-align: center;
+            width: 90vw;
+
+        }
+        #contact-text{
+            text-align: center;
+        }
+        #map iframe{
+            height: 60vh;
+            width: 90vw;
+      }
+      .submit{
+        padding: 5px;
+      }
+
+      /* SIGN UP FORM QUERY */ 
+      #signup-container{
+        width: 90vw;
+        height:120vh;
+    }
+    #signup-form h2{
+        font-size: 6vh;
+        margin-top: 5%;
+        width: 90vw;
+    }
+    #signup-form{
+        height: 50vh;
+        width: 90vw;
+        margin: auto;
+    }
+    .form-input{
+        width: 25vw;
+        height: 4vh;
+        font-size: 3vh;
+    }
+    .text-form{
+        margin: auto;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #full-name{
+        margin-top: 5%;
+        font-weight: 800;
+        text-align: center;
+    }
+    #email-address{
+        font-size: 4vh;
+        font-weight: 800;
+        text-align: center;
+    }
+    #radio{
+        margin-top: 2%;
+        text-align: center;
+    }
+    }
+      @media screen and (max-width:700px) {
+
+        #index-section3{
+            height: 150vh;
+            width:100vw;
+            max-width: 100%;
+            background-color: white;
+            }
+
+        #index-section3-container{
+            height: 180vh;
+            display: flex;
+            flex-direction: column;
+            }
+
+        .sec1-box, .sec2-box, .sec3-box{
+            width: 100vw;
+            height: 50vh;
+              }
+
+        .social-networks i{
+            font-size: 2vh;
+            color:rgb(255, 255, 255);
+            }
       }
