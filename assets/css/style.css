@@ -83,36 +83,6 @@
         margin-top: 0px;
         transform: rotate(-405deg);
       }
-/* #header-box{
-    height: 20vh;
-    width: 100vw;
-    max-width: 100%;
-}
-#title{
-    margin: .5% 0 0 2%;
-    font-size: 175%;
-    font-family: teko, sans-serif;
-    text-decoration: none;
-    float: left;
-} */
-
-/* .menu{
-    margin: .5% 1% 0 0;
-    font-size: 4vh;
-    font-family: teko, sans-serif;
-    float: right;
-    word-spacing: 10px;
-} */
-/* .menu, #title{
-    line-height: 70px;
-}
-.menu a{
-    text-decoration: none;
-}
-.menu li{
-    list-style: none;
-    display: inline;
-} */
 
 /* INDEX */
 
@@ -145,21 +115,7 @@
     text-align: center;
     margin-top: 5%;
 }
-/* #slogan-header{
-    font-family: teko, sans-serif;
-    font-size: 15vh;
-    text-align: center;
-    height:150px;
-    margin-top: 30vh;
-    overflow: hidden;
-    letter-spacing: 3px;
-}
-#slogan-text{
-    font-family: teko, sans-serif;
-    font-size: 5vh;
-    text-align: center;
-    letter-spacing: 3px;
-} */
+
 #slogan a{
     text-decoration: none;
     padding: .25% 1% .25% 1%;
@@ -467,7 +423,7 @@ footer{
 
     /* DESTINATIONS */ 
 
-    #destination-background-image-container{
+     #destination-background-image-container{
         background: url('../images/singapore-trip.jpg');
         height: 100vh;
         width: 100vw;
@@ -478,48 +434,64 @@ footer{
         background-size: cover;
         background-attachment: fixed;
     }
-    #trip1-container, #trip3-container{
-        max-width: 100%;
-        width: 100vw;
-        height:100vh;
-        display: flex;
-        color: white;
+     #trip2, #trip3{
+    height: 100vh;
+    width: 100vw;
+    border: .1px solid;
     }
-    #trip1-box, #trip3-box{
-        height: 80vh;
-        width: 50vw;
-        margin-top: 10vh;
+    #trip1-box, #trip2-box, #trip3-box{
+    border-radius: 15px;
+    height:50vh;
+    width:35vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    border: rgb(255, 255, 255, .5) solid 1px;
     }
-    .trip1, .trip3{
-        width: 50vw;
-        height: 30vh;
-    }
-    .trip1-text h2, .trip3-text h2{
+    .trip-1, .trip-2, .trip-3{
         text-align: center;
-        font-size: 10vh;
+        width: 35vw;
     }
-    .trip1-text p, .trip3-text p{
-        text-align: center;
-        font-size: 5vh;
+    .trip-1-h2, .trip-2-h2, .trip-3-h2{
+        font-size: 250%;
+        border-bottom: #fff solid 2px;
+        padding-bottom: 2vh;
     }
-    .trip1-link p, .trip-link p{
-        font-size: 5vh;
-        text-align: center;
+    .trip-1-p, .trip-2-p, .trip-3-p{
+        font-size: 150%;
+        border-bottom: #fff solid 2px;
     }
-    .trip1-link a{
-        margin-left:45%;
-        font-size: 4vh;
-        padding: 5px 15px 5px 15px;
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(51, 7, 55);
+    .trip-1-link, .trip-2-link, .trip-3-link{
+        margin-top: 5vh;
+        font-size: 150%;
+    }
+    .trip-1-link a{
+        background-color: rgb(75, 8, 75);
         text-decoration: none;
-        border: 1px rgb(51, 7, 55) solid;
+        padding: 5px;
+        border-radius: 10px;
     }
-    .trip1-link a:hover{
-        color: rgb(51, 7, 55);
+    .trip-2-link a{
+        background-color: rgb(212, 168, 93);
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    .trip-3-link a{
+        background-color: rgb(15, 6, 71);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .trip-1-link a:hover, .trip-2-link a:hover, .trip-3-link a:hover{
         background-color: white;
+        color: black;
     }
+    
+
     #trip2-background-image{
         background: url('../images/marrakech-bg.jpg');
         height: 100vh;
@@ -531,54 +503,10 @@ footer{
         background-size: cover;
         background-attachment: fixed;
     }
-    #trip2-container{
-        max-width: 100%;
-        width: 100vw;
-        height:100vh;
-        display: flex;
-        color: rgb(0, 0, 0);
+    #trip2-box, #trip3-box{
+        margin-top: 20vh;
     }
-    #trip2-box{
-        height: 80vh;
-        width: 50vw;
-        margin-top: 10vh;
-        margin-left: 45vw;
-    }
-    .trip2{
-        width: 51vw;
-        height: 30vh;
-    }
-    .trip2-text h2{
-        text-align: center;
-        font-size: 10vh;
-    }
-    .trip2-text p{
-        text-align: center;
-        font-size: 5vh;
-        padding-bottom: 1%;
-    }
-    .trip2-link{
-        font-size: 5vh;
-        margin-top: 2%;
-        padding-top:1%;
-        position: absolute;
-    }
-    .trip2-link a{
 
-        margin-left:47%;
-        font-size: 4vh;
-        padding: 5px 15px 5px 15px;
-        border-radius: 10px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(211, 161, 120);
-        text-decoration: none;
-        border: 1px rgb(0, 0, 0) solid;
-    }
-    .trip2-link a:hover{
-        color: rgb(211, 161, 120);
-        background-color: white;
-        border: rgb(211, 161, 120);
-    }
     #trip3-background-image{
         background: url('../images/amsterdam-bg.jpg');
         height: 100vh;
@@ -589,25 +517,6 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    }
-    .trip3-link{
-        font-size: 5vh;
-        margin-top: 2%;
-    }
-    .trip3-link a{
-        margin-left:47%;
-        font-size: 4vh;
-        padding: 5px 15px 5px 15px;
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(36, 43, 54);
-        text-decoration: none;
-        border: 1px rgb(36, 43, 54) solid;
-    }
-    .trip3-link a:hover{
-        color: rgb(36, 43, 54);
-        background-color: white;
-        border: rgb(255, 255, 255);
     }
 
     /* CSS STYLE ANIMATION */
@@ -1172,19 +1081,29 @@ footer{
             flex-direction: column;
             text-align: center;
         }
-        /* .box3{
-            background: url('../images/about-image-4.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        #about4-image{
-            background: url('../images/index\ background\ 1.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
-            width: 80vw;
-        } */
 
+        /* Destination */
+        #trip1-box, #trip2-box, #trip3-box{
+            border-radius: 15px;
+            height:50vh;
+            width:100vw;
+            margin: auto;
+            margin-top: 20vh;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            border: rgb(255, 255, 255, .5) solid 1px;
+            }
+            .trip-1, .trip-2, .trip-3{
+                text-align: center;
+                width: 100vw;
+            }
+        .trip-1-h2, .trip-2-h2, .trip-3-h2{
+            font-size: 150%;
+        }
+
+        .trip-1-p, .trip-2-p, .trip-3-p{
+            font-size: 150%;
+        }
       }
