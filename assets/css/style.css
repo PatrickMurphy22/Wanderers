@@ -299,7 +299,6 @@
 .sec1-box:hover div, .sec2-box:hover div, .sec3-box:hover div {
    opacity: 1;
 }
-
     /* FOOTER */ 
 
 footer{
@@ -651,24 +650,28 @@ footer{
         height: 90vh;
         width: 100vw;
         max-width: 100%;
-        border: 2px solid red;
     }
 
     #about1{
-        border: solid 2px green;
-        height: 60vh;
+        height: 50vh;
         width: 80vw;
         margin: auto;
-        margin-top: 10vh;
+        margin-top: 20vh;
+    }
+    #about1 h2{
+        font-size: 7vw;
+        text-align: center;
+    }
+    #about1 p {
+        font-size: 150%;
+        text-align: center;
     }
     #about2, #about3, #about4, #about5{
-        border: 2px yellow solid;
         height: 100vh;
         width: 100vw;
         background-color: #000;
     }
     #about2-image-container, #about4-image-container{
-        border: solid 2px green;
         height: 100vh;
         width: 80vw;
         margin: auto;
@@ -682,20 +685,27 @@ footer{
         width: 80vw;
     }
     #about3-container, #about5-container{
-        border:2px blue solid;
         height: 100vh;
         width: 80vw;
         margin: auto;
         display: flex;
     }
     .about-3, .about-5{
-        border: 2px white solid;
         height:90vh;
         width:40vw;
         margin-top: 3vh;
     }
+    .box1 h2, .box4 h2{
+        font-size: 6vw;
+    }
+    .box1 p, .box4 p{
+        font-size: 150%;
+    }
+    .box4{
+        margin-left: 1vw;
+    }
     .box2, .box3{
-        height:60vh;
+        height:90vh;
     }
     .box2{
         background: url('../images/about\ 3\ .jpg');
@@ -716,6 +726,24 @@ footer{
         background-size: cover;
         height: 100vh;
         width: 80vw;
+    }
+    #about-explore{
+        text-align: center;
+        margin-top: 5vh;
+    }
+    #about-explore a{
+        background-color: rgb(255, 255, 255);
+        color: #000;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    #about-explore a:hover{
+        background-color: rgb(95, 182, 241);
+        color: #000;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        text-decoration: none;
     }
     /* SINGAPORE */ 
 
@@ -1010,7 +1038,6 @@ footer{
       .submit{
         padding: 5px;
       }
-
       /* SIGN UP FORM QUERY */ 
       #signup-container{
         width: 90vw;
@@ -1052,8 +1079,11 @@ footer{
         text-align: center;
     }
     }
-      @media screen and (max-width:700px) {
+      @media screen and (max-width:750px) {
 
+        #slogan{
+            font-size: 90%;
+        }
         #index-section3{
             height: 150vh;
             width:100vw;
@@ -1061,6 +1091,10 @@ footer{
             background-color: white;
             }
 
+        .section2{
+            font-size: 90%;
+            padding-top: 2vh;
+        }
         #index-section3-container{
             height: 180vh;
             display: flex;
@@ -1076,4 +1110,81 @@ footer{
             font-size: 2vh;
             color:rgb(255, 255, 255);
             }
+
+         /* ABOUT */ 
+      
+         #about1{
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+        }
+
+        #about1 p {
+            font-size: 125%;
+        }
+         #about3, #about5{
+            height: 160vh;
+        }
+        #about2{
+            height:70vh;
+        }
+        #about2-image-container, #about4-image-container{
+            height: 80vh;
+        }
+        #about2-image{
+            height: 80vh;
+        }
+        #about3-container{
+            height: 200vh;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .about-3, .about-5{
+            height:100vh;
+            width:80vw;
+            margin-top: 3vh;
+        }
+        .box1{
+            height: 80vh;
+        }
+        .box1 h2, .box4 h2{
+            font-size: 8vw;
+        }
+        .box1 p, .box4 p{
+            font-size: 125%;
+        }
+        .box4{
+            margin-left: 1vw;
+        }
+        .box2, .box3{
+            height:90vh;
+        }
+        .box2, #about4-image, .box3{
+         height: 70vh;
+        }
+        #about4{
+            height: 65vh;
+        }
+        #about5-container{
+            height: 200vh;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        /* .box3{
+            background: url('../images/about-image-4.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #about4-image{
+            background: url('../images/index\ background\ 1.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 80vw;
+        } */
+
       }
