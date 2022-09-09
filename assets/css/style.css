@@ -17,8 +17,6 @@
         justify-content: space-between;
         height: 50px;
         padding: 1em;
-        text-decoration: none;
-        font-size: 150%;
       }
       
       .menu {
@@ -32,6 +30,7 @@
       .menu > li {
         margin: 0 1rem;
         overflow: hidden;
+        font-size: 150%;
       }
       
       .menu-button-container {
@@ -656,76 +655,75 @@ footer{
     }
     /* SINGAPORE */ 
 
-    #singapore-background-container{
-        height: 100vh;
+    #singapore-header-container{
+        height: 15vh;
         width: 100vw;
         background-color: #000;
         max-width: 100%;
         color:white;
     }
-    #singapore-background-container2, #singapore-background-container3{
-        height: 90vh;
+    #singapore-heading-container{
+        height: 80vh;
         width: 100vw;
         background-color: #000;
         max-width: 100%;
         color:white;
     }
-    #singapore-background1{
-        height: 100vh;
-        width: 100vw;
-        max-width: 100%;
+    #singapore-header{
+        height: 75vh;
+        width: 80vw;
+        margin-top: 10vh;
+        margin: auto;
+        text-align: center;
     }
-    #singapore-background2, #singapore-background3{
+    #singapore-header h2, #singapore-text2 h2, #singapore-text3 h2{
+        font-size: 5vw;
+    }
+    #singapore-header p, #singapore-text2 p, #singapore-text3 p{
+        font-size: 135%;
+        padding: 2%;
+    }
+    #singapore-image1-container, #singapore-image2-container, #singapore-image3-container{
+        background-color: #000;
         height: 80vh;
-        width: 100vw;
-        max-width: 100%;
     }
-    #singapore-about-container, #singapore-about-container2, #singapore-about-container3{
-        height: 80vh;
-        width: 100vw;
-        display: flex;
-        max-width: 100%;
-    }
-    .singapore-about1, .singapore-about3{
-        height: 80vh;
-    }
-    .singapore-box1, .singapore-box4, .singapore-box5{
-        width: 40vw;
-        padding:1%;
-    }
-    .singapore-box2{
+    #singapore-image1{
         background: url('../images/singapore\ about2.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 55vw;
-    }
-    .singapore-box1 h2, .singapore-box4 h2, .singapore-box5 h2{
-        text-align: center;
-        font-size: 400%;
-    }
-    .singapore-box1 p, .singapore-box4 p, .singapore-box5 p{
-        font-size:130%;
-        padding: 1%;
-    }
-    .singapore-about2{
         height: 80vh;
+        width: 80vw;
+        margin: auto;
     }
-    .singapore-box3{
+    #singapore-box2-container, #singapore-box3-container{
+        background-color: #000;
+        height: 70vh;
+    }
+    #singapore-text2, #singapore-text3{
+        height: 75vh;
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+    #singapore-image2{
         background: url('../images/singapore\ about3.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 55vw;
+        height: 80vh;
+        width: 80vw;
+        margin: auto;
     }
-    .singapore-box6{
+    #singapore-image3{
         background: url('../images/singapore\ about4.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 55vw;
+        height: 80vh;
+        width: 80vw;
+        margin: auto;
     }
-
     /* MARRAKECH */ 
 
     #marrakech-background-container{
@@ -890,7 +888,8 @@ footer{
           margin: 0;
           padding: 0;
           border: 0;
-          transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+          transition: height 400ms 
+          cubic-bezier(0.23, 1, 0.32, 1);
         }
         #menu-toggle:checked ~ .menu li {
           border: 1px solid #333;
@@ -986,6 +985,87 @@ footer{
     #radio{
         margin-top: 2%;
         text-align: center;
+    }
+    /* SINGAPORE */ 
+    
+    #singapore-header-container{
+        height: 15vh;
+        width: 100vw;
+        background-color: #000;
+        max-width: 100%;
+        color:white;
+    }
+    #singapore-heading-container{
+        color:white;
+        background: url('../images/singapore\ about2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #singapore-header{
+        height: 80vh;
+        width: 100vw;
+        margin-top: 10vh;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(0, 0, 0, .5);
+    }
+    #singapore-header h2, #singapore-text2 h2, #singapore-text3 h2{
+        padding-top: 2vh;
+    }
+    #singapore-header p, #singapore-text2 p, #singapore-text3 p{
+        font-size: 135%;
+        padding: 0 1% 0 1%;
+    }
+    #singapore-image1-container, #singapore-image2-container, #singapore-image3-container{
+        background-color: #000;
+        height: 0vh;
+    }
+    #singapore-image1{
+        height:0vh;
+    }
+    #singapore-box2-container{
+        background: url('../images/singapore\ about3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+     #singapore-box3-container{
+        background: url('../images/singapore\ about4.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    #singapore-text2{
+        height: 80vh;
+        width: 100vw;
+        margin-top: 10vh;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(0, 0, 0, .5);
+    }
+    #singapore-text3{
+        height: 80vh;
+        width: 100vw;
+        margin-top: 10vh;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(0, 0, 0, .5);
+    }
+    #singapore-image2{
+        height: 0vh;
+    }
+    #singapore-image3{
+        height: 0;
     }
     }
       @media screen and (max-width:750px) {
