@@ -7,7 +7,10 @@
     border: none;
     font-family: teko, sans-serif;
     color: white;
-}       
+}     
+body{
+    background-color: #000;
+}  
 
     /* HEADER */
     #header-box {
@@ -259,15 +262,14 @@
 footer{
     max-width: 100%;
     width: 100vw;
-    height:30vh;
-    max-height: 100%;
+    height:20vh;
     background-color: black;
     font-family: teko, sans-serif;
     letter-spacing: 4px;
     border-top: 2px white solid;
 }
 #footer-container{
-    height: 30vh;
+    height: 20vh;
 }
 #social-media-icons h2{
     margin-top: 2%;
@@ -653,221 +655,6 @@ footer{
         border-radius: 10px;
         text-decoration: none;
     }
-    /* SINGAPORE */ 
-
-    #singapore-header-container{
-        height: 15vh;
-        width: 100vw;
-        background-color: #000;
-        max-width: 100%;
-        color:white;
-    }
-    #singapore-heading-container{
-        height: 80vh;
-        width: 100vw;
-        background-color: #000;
-        max-width: 100%;
-        color:white;
-    }
-    #singapore-header{
-        height: 75vh;
-        width: 80vw;
-        margin-top: 10vh;
-        margin: auto;
-        text-align: center;
-    }
-    #singapore-header h2, #singapore-text2 h2, #singapore-text3 h2{
-        font-size: 5vw;
-    }
-    #singapore-header p, #singapore-text2 p, #singapore-text3 p{
-        font-size: 135%;
-        padding: 2%;
-    }
-    #singapore-image1-container, #singapore-image2-container, #singapore-image3-container{
-        background-color: #000;
-        height: 80vh;
-    }
-    #singapore-image1{
-        background: url('../images/singapore\ about2.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        width: 80vw;
-        margin: auto;
-    }
-    #singapore-box2-container, #singapore-box3-container{
-        background-color: #000;
-        height: 70vh;
-    }
-    #singapore-text2, #singapore-text3{
-        height: 75vh;
-        width: 80vw;
-        margin: auto;
-        text-align: center;
-    }
-    #singapore-image2{
-        background: url('../images/singapore\ about3.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        width: 80vw;
-        margin: auto;
-    }
-    #singapore-image3{
-        background: url('../images/singapore\ about4.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        width: 80vw;
-        margin: auto;
-    }
-    /* MARRAKECH */ 
-
-    #marrakech-background-container{
-        height: 100vh;
-        width: 100vw;
-        background-color: #000;
-        max-width: 100%;
-        color:white;
-    }
-    #marrakech-background-container2, #marrakech-background-container3{
-        height: 90vh;
-        width: 100vw;
-        background-color: #000;
-        max-width: 100%;
-        color:white;
-    }
-    #marrakech-background1{
-        height: 100vh;
-        width: 100vw;
-        max-width: 100%;
-    }
-    #marrakech-background2, #marrakech-background3{
-        height: 80vh;
-        width: 100vw;
-        max-width: 100%; 
-    }
-    .marrakech-box1 p, .marrakech-box4 p, .marrakech-box5 p{
-        font-size:130%;
-        padding: 1.5%;
-    }
-    #marrakech-about-container, #marrakech-about-container2, #marrakech-about-container3{
-        height: 80vh;
-        width: 100vw;
-        display: flex;
-        max-width: 100%;
-    }
-    .marrakech-about1, .marrakech-about3{
-        height: 80vh;
-    }
-    .marrakech-box1, .marrakech-box4, .marrakech-box5{
-        width: 30vw;
-    }
-    .marrakech-box2{
-        background: url('../images/marrakech3.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70vw;
-    }
-    .marrakech-box1 h2, .marrakech-box4 h2, .marrakech-box5 h2{
-        text-align: center;
-        font-size: 400%;
-    }
-    .marrakech-about2{
-        height: 80vh;
-    }
-    .marrakech-box3{
-        background: url('../images/marrakech\ ABOUT2.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70vw;
-    }
-    .marrakech-box6{
-        background: url('../images/marrakech\ about1.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70vw;
-    }
-
-      /* AMSTERDAM */ 
-
-      #amsterdam-background-container{
-        height: 100vh;
-        width: 100vw;
-        background-color: #000;
-        max-width: 100%;
-        color:white;
-    }
-    #amsterdam-background-container2, #amsterdam-background-container3{
-        height: 90vh;
-        width: 100vw;
-        background-color: #000;
-        max-width: 100%;
-        color:white;
-    }
-    #amsterdam-background1{
-        height: 100vh;
-        width: 100vw;
-        max-width: 100%;
-    }
-    #amsterdam-background2, #amsterdam-background3{
-        height: 80vh;
-        width: 100vw;
-        max-width: 100%;
-    }
-    #amsterdam-about-container, #amsterdam-about-container2, #amsterdam-about-container3{
-        height: 80vh;
-        width: 100vw;
-        display: flex;
-        max-width: 100%;
-    }
-    .amsterdam-about1, .amsterdam-about3{
-        height: 80vh;
-    }
-    .amsterdam-box1, .amsterdam-box4, .amsterdam-box5{
-        width: 30vw;
-    }
-    .amsterdam-box1 p, .amsterdam-box4 p, .amsterdam-box5 p{
-        font-size:130%;
-        padding: 1.5%;
-    }
-    .amsterdam-box2{
-        background: url('../images/amasterdam\ about1.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70vw;
-        max-width: 100%;
-    }
-    .amsterdam-box1 h2, .amsterdam-box4 h2, .amsterdam-box5 h2{
-        text-align: center;
-        font-size: 400%;
-    }
-    .amsterdam-about2{
-        height: 80vh;
-    }
-    .amsterdam-box3{
-        background: url('../images/amsterdam\ about3.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70vw;
-        max-width: 100%;
-    }
-    .amsterdam-box6{
-        background: url('../images/amsterdam\ about2.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70vw;
-        max-width: 100%;
-    }
     /* RESPONSIVE DESIGN */ 
     @media (max-width: 950px) {
         .menu-button-container {
@@ -986,87 +773,6 @@ footer{
         margin-top: 2%;
         text-align: center;
     }
-    /* SINGAPORE */ 
-    
-    #singapore-header-container{
-        height: 15vh;
-        width: 100vw;
-        background-color: #000;
-        max-width: 100%;
-        color:white;
-    }
-    #singapore-heading-container{
-        color:white;
-        background: url('../images/singapore\ about2.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        width: 100vw;
-        max-width: 100%;
-    }
-    #singapore-header{
-        height: 80vh;
-        width: 100vw;
-        margin-top: 10vh;
-        margin: auto;
-        text-align: center;
-        background-color: rgb(0, 0, 0, .5);
-    }
-    #singapore-header h2, #singapore-text2 h2, #singapore-text3 h2{
-        padding-top: 2vh;
-    }
-    #singapore-header p, #singapore-text2 p, #singapore-text3 p{
-        font-size: 135%;
-        padding: 0 1% 0 1%;
-    }
-    #singapore-image1-container, #singapore-image2-container, #singapore-image3-container{
-        background-color: #000;
-        height: 0vh;
-    }
-    #singapore-image1{
-        height:0vh;
-    }
-    #singapore-box2-container{
-        background: url('../images/singapore\ about3.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        width: 100vw;
-        max-width: 100%;
-    }
-     #singapore-box3-container{
-        background: url('../images/singapore\ about4.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-        width: 100vw;
-        max-width: 100%;
-    }
-    #singapore-text2{
-        height: 80vh;
-        width: 100vw;
-        margin-top: 10vh;
-        margin: auto;
-        text-align: center;
-        background-color: rgb(0, 0, 0, .5);
-    }
-    #singapore-text3{
-        height: 80vh;
-        width: 100vw;
-        margin-top: 10vh;
-        margin: auto;
-        text-align: center;
-        background-color: rgb(0, 0, 0, .5);
-    }
-    #singapore-image2{
-        height: 0vh;
-    }
-    #singapore-image3{
-        height: 0;
-    }
     }
       @media screen and (max-width:750px) {
 
@@ -1101,7 +807,9 @@ footer{
             }
 
          /* ABOUT */ 
-      
+         #about-background-container{
+            height: 75vh;
+         }
          #about1{
             margin-top: 10vh;
             margin-bottom: 10vh;
@@ -1123,7 +831,7 @@ footer{
             height: 80vh;
         }
         #about3-container{
-            height: 200vh;
+            height: 150vh;
             margin: auto;
             display: flex;
             flex-direction: column;
@@ -1132,8 +840,9 @@ footer{
         .about-3, .about-5{
             height:100vh;
             width:80vw;
-            margin-top: 3vh;
+            margin-top: 5vh;
         }
+
         .box1{
             height: 80vh;
         }
@@ -1186,4 +895,18 @@ footer{
         .trip-1-p, .trip-2-p, .trip-3-p{
             font-size: 150%;
         }
+        
+        /* FOOTER */ 
+
+        #social-media-icons h2{
+            margin-top: 2%;
+            color: white;
+            text-align: center;
+            margin-bottom:5vh ;
+        }
+        .social-networks i{
+            font-size: 5vh;
+            color:rgb(255, 255, 255);
+        } 
+
       }
