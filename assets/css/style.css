@@ -562,7 +562,6 @@ body{
   height: 80vh;
   margin: 0 .5vw 0 2vw;
 }
-
 .singapore-img1{
   background: url('../images/singapore\ about2.jpg');
   background-position: center;
@@ -622,6 +621,17 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.singapore-text1 h2, .singapore-text2 h2, .singapore-text3 h2,
+.amsterdam-text1 h2, .amsterdam-text2 h2, .amsterdam-text3 h2, 
+.marrakech-text1 h2, .marrakech-text2 h2, .marrakech-text3 h2{
+    font-size: 300%;
+}
+.singapore-text1 p, .singapore-text2 p, .singapore-text3 p, 
+.amsterdam-text1 p, .amsterdam-text2 p, .amsterdam-text3 p, 
+.marrakech-text1 p, .marrakech-text2 p, .marrakech-text3 p{
+    font-size: 125%;
+    letter-spacing: 1px;
 }
 
     /* CSS STYLE ANIMATION */
@@ -886,6 +896,7 @@ body{
             height: 160vh;
             display: flex;
             flex-direction: column;
+            text-align: center;
         }
 
         .singapore-text1, .singapore-text3, .marrakech-text1, .marrakech-text3, .amsterdam-text1, .amsterdam-text3{
@@ -1068,6 +1079,24 @@ body{
             color:rgb(255, 255, 255);
         } 
 
+    }
+    @media screen and (max-width:550px) {
+    /* .singapore-text1 h2{
+        font-size: 300%;
+    } */
+    .singapore-text1 p, .singapore-text2 p, .singapore-text3 p, 
+    .amsterdam-text1 p, .amsterdam-text2 p, .amsterdam-text3 p, 
+    .marrakech-text1 p, .marrakech-text2 p, .marrakech-text3 p{
+        font-size: 110%;
+    }
+    .singapore-text1, .singapore-text3, .marrakech-text1, .marrakech-text3, .amsterdam-text1, .amsterdam-text3{
+        height: 92vh;
+      }
+      
+      .singapore-text2, .marrakech-text2, .amsterdam-text2{
+        height: 90vh;
+      }
+      
     }
       @media screen and (max-width:535px) {
 
