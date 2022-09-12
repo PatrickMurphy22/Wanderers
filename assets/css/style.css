@@ -139,8 +139,9 @@ body{
         width: 100vw;
         height: 20vh;
         max-width: 100%;
-        background-color: rgb(165, 115, 97);
+        background-color: rgb(202, 149, 130);
         font-size: 4vh;
+        padding-top: 35px;
     }
     #index-section2-container{
         width: 100vw;
@@ -1081,9 +1082,22 @@ body{
 
     }
     @media screen and (max-width:550px) {
-    /* .singapore-text1 h2{
-        font-size: 300%;
-    } */
+        #index-section3-container * {
+            box-sizing: border-box;
+            transition: none;
+            }
+            
+        .sec1-box:before, .sec1-box:after, .sec2-box:before, .sec2-box:after, .sec3-box:before, .sec3-box:after{
+            background-color: rgba(0, 0, 0, 0.3);
+            border-top: 32px solid rgba(0, 0, 0, 0.3);
+            border-bottom: 32px solid rgba(0, 0, 0, 0.3);
+            opacity: 1;
+            }
+            
+        .sec1-box div, .sec2-box div, .sec3-box div {
+            opacity: 1;
+            }
+            
     .singapore-text1 p, .singapore-text2 p, .singapore-text3 p, 
     .amsterdam-text1 p, .amsterdam-text2 p, .amsterdam-text3 p, 
     .marrakech-text1 p, .marrakech-text2 p, .marrakech-text3 p{
