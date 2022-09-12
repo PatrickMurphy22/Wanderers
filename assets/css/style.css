@@ -104,6 +104,7 @@ body{
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        position: absolute;
     }
     #slogan-container{
         margin: auto;
@@ -1085,6 +1086,9 @@ body{
         #index-section3-container * {
             box-sizing: border-box;
             transition: none;
+            }
+            #index-background{
+                background-attachment: scroll;
             }
             
         .sec1-box:before, .sec1-box:after, .sec2-box:before, .sec2-box:after, .sec3-box:before, .sec3-box:after{
