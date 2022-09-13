@@ -286,6 +286,7 @@ body{
     }
     .social-networks i{
         font-size: 5vh;
+        padding-top: 4%;
         color:rgb(255, 255, 255);
     } 
     .social-networks li{
@@ -442,7 +443,7 @@ body{
     #trip2, #trip3{
         height: 100vh;
         width: 100vw;
-        border: .1px solid;
+        border-top: .1px solid;
     }
 
     #trip1-box, #trip2-box, #trip3-box{
@@ -1102,27 +1103,39 @@ body{
             opacity: 1;
             }
             
-    .singapore-text1 p, .singapore-text2 p, .singapore-text3 p, 
-    .amsterdam-text1 p, .amsterdam-text2 p, .amsterdam-text3 p, 
-    .marrakech-text1 p, .marrakech-text2 p, .marrakech-text3 p{
-        font-size: 110%;
-    }
-    .singapore-text1, .singapore-text3, .marrakech-text1, .marrakech-text3, .amsterdam-text1, .amsterdam-text3{
-        height: 92vh;
-      }
-      
-      .singapore-text2, .marrakech-text2, .amsterdam-text2{
-        height: 90vh;
-      }
-      
-    }
-      @media screen and (max-width:535px) {
-
-        .social-networks i{
-            font-size: 3vh;
-        } 
-
-        #social-media-icons{
-            width: 70vw;
+        .singapore-text1 p, .singapore-text2 p, .singapore-text3 p, 
+        .amsterdam-text1 p, .amsterdam-text2 p, .amsterdam-text3 p, 
+        .marrakech-text1 p, .marrakech-text2 p, .marrakech-text3 p{
+            font-size: 110%;
         }
-    }
+        
+        .singapore-text1, .singapore-text3, .marrakech-text1, .marrakech-text3, .amsterdam-text1, .amsterdam-text3{
+            height: 92vh;
+        }
+        
+        .singapore-text2, .marrakech-text2, .amsterdam-text2{
+            height: 90vh;
+        }
+        #destination-background-image-container{
+            background-attachment: scroll;
+        }
+
+        #trip2-background-image{
+            background-attachment: scroll;
+        }
+    
+        #trip3-background-image{
+            background-attachment: scroll;
+        }
+        
+        }
+        @media screen and (max-width:535px) {
+
+            .social-networks i{
+                font-size: 3vh;
+            } 
+
+            #social-media-icons{
+                width: 70vw;
+            }
+        }
