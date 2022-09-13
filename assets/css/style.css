@@ -1052,7 +1052,8 @@ body{
             flex-direction: column;
             background-color: rgba(0, 0, 0, 0.5);
             justify-content: center;
-            border: rgb(255, 255, 255, .5) solid 1px;
+            border-top: rgb(255, 255, 255, .5) solid 1px;
+            border-bottom: rgb(255, 255, 255, .5) solid 1px;
             }
             
         .trip-1, .trip-2, .trip-3{
@@ -1106,8 +1107,8 @@ body{
         .singapore-text1 p, .singapore-text2 p, .singapore-text3 p, 
         .amsterdam-text1 p, .amsterdam-text2 p, .amsterdam-text3 p, 
         .marrakech-text1 p, .marrakech-text2 p, .marrakech-text3 p{
-            font-size: 110%;
-        }
+            font-size: 120%;
+        } 
         
         .singapore-text1, .singapore-text3, .marrakech-text1, .marrakech-text3, .amsterdam-text1, .amsterdam-text3{
             height: 92vh;
@@ -1115,6 +1116,8 @@ body{
         
         .singapore-text2, .marrakech-text2, .amsterdam-text2{
             height: 90vh;
+            padding-top:40px;
+            border-bottom: 1px white solid;
         }
 
         #trip2-background-image,#trip3-background-image, #destination-background-image-container{
