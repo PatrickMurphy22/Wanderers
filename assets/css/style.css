@@ -1111,11 +1111,11 @@ body{
         } 
         
         .singapore-text1, .singapore-text3, .marrakech-text1, .marrakech-text3, .amsterdam-text1, .amsterdam-text3{
-            height: 92vh;
+            height: 85vh;
         }
         
         .singapore-text2, .marrakech-text2, .amsterdam-text2{
-            height: 90vh;
+            height: 78vh;
             padding-top:40px;
             border-bottom: 1px white solid;
         }
