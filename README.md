@@ -60,9 +60,13 @@ Memebers of the community will be able to see what locations are being ventured 
 2. 3 links, Destinations, About and Contact which will take the user to each corresponding page. 
 3. When screen size is reduced the 3 links will turn into a burger icon containing all 3 links.
 
-### Header on mobiles & tablets screens
+### Header on desktops.
 
-### Header on desktops
+![Header on desktop](assets/images/wanderers-header.png)
+
+### Header on mobile & tablet screens
+
+![Header on different screen sizes](assets/images/Wanderers-header2.png)
 
 ## The Landing Section
 
@@ -70,7 +74,7 @@ Memebers of the community will be able to see what locations are being ventured 
    
 ### Landing Section on Desktops
 
-### Landing Section on mobile
+![Landing page on desktop](assets/images/wanderers-homepage.png)
    
 ## The Citys Section
    
@@ -80,5 +84,11 @@ Memebers of the community will be able to see what locations are being ventured 
    
 ### City Section on Desktop
 
+![City Section on desktop](assets/images/wanderers-section2-1.png)
+
 ### City Section on Tablet / Mobile
+
+![City Section on different screen sizes](assets/images/Wanderers-section2-2.png)
+
+
    
