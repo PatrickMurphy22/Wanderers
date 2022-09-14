@@ -21,21 +21,16 @@ ____
     * [Contact Page](#contact-page)
     * [Location Pages](#location-pages)
     * [Further Features](#further-features)
-3. [User Experience (UX)](#user-experience)
-    * [Strategy](#strategysite-goals)
-    * [Scope](#scopeuser-stories)
-    * [Structure](#structuredesign-choices)
-    * [Skeleton](#skeletonwireframes)
-    * [Surface](#surface)
+3. [User Experience](#user-experience)
 4. [Technologies](#technologies)
 5. [Testing](#testing)
-    * [Validator](#validator-testing)
-    * [Lighthouse](#lighthouse-testing)
-6. [Bugs](#bugs)
-7. [Citation of Sources](#citation-of-sources)
-    * [Content](#content)
-    * [Media](#media)
-8. [Acknowledgements](#acknowledgements)
+    * [Validator](#w3c-validator)
+    * [Lighthouse](#lighthouse)
+6. [Bugs](#bugs) 
+7. [Credits](#credits)
+    * [Code](#code)
+    * [Images](#images)
+8. [Acknowledgement](#acknowledgement)
 
 ---
 # Overview
@@ -186,7 +181,25 @@ In the future, features can be added such as chatrooms for the community to comm
 
 The code is set to make it much easier for coder to change the locations every three months as the code was copied for each location. 
 
-## User Experience 
+# User Experience 
+
+# Technology 
+
+# Testing
+
+## W3C Validation
+
+## Lighthouse
+
+# Bugs 
+
+# Credits
+
+## Code
+
+## Images
+
+# Acknowledgement
 
 
 
