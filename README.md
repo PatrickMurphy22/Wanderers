@@ -117,11 +117,11 @@ The Full size background images provide the user with an incredible image of the
 
 On smaller screens the border containing the above information spreads to full width of the screen. 
 
-![Destinations](assets/images/Wanderers-locations1.png.png)
+![Destinations](assets/images/Wanderers-locations1.png)
 
 ### Destination page on tablets and mobiles.
 
-![Destinations](assets/images/Wanderers-locations3.png.png)
+![Destinations](assets/images/Wanderers-locations3.png)
 
 ## About Page
 
