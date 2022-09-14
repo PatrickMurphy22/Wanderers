@@ -204,6 +204,7 @@ Testing was carried out on HP Laptop, Macbook Pro, Iphone 11 and Samsung s22.
 # Bugs 
 
 Bug: Images on Iphone were zoomed in and not displaying correct image 
+
 fix: added Background-attachment:scrolled;
 
 Bug: 
