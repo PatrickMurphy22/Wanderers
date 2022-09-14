@@ -199,7 +199,7 @@ Testing was carried out on HP Laptop, Macbook Pro, Iphone 11 and Samsung s22.
 
 ## Lighthouse
  The Website received a total score of 97 on Lighthouse.
- ![Locations](assets/readme-images/Lighthouse-Report-Viewer.png
+ ![Locations](assets/readme-images/Lighthouse-Report-Viewer.png)
 
 # Bugs 
 
