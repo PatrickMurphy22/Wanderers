@@ -164,7 +164,7 @@ Locations contains:
 2. The history of the travel location, followed by a captivating picture.
 3. Then food and attractions outline in a similar manner above. 
 5. The code is simple, and copied for the other 2 locations as its was the most practical way to impliment the code. 
-6. 
+
 ### Locations page on Desktop.
 
 ![Locations](assets/readme-images/Wanderers-locations1.png)
@@ -181,25 +181,52 @@ In the future, features can be added such as chatrooms for the community to comm
 
 The code is set to make it much easier for coder to change the locations every three months as the code was copied for each location. 
 
-# User Experience 
-
 # Technology 
+
+### Technology used 
+
+1. HTML
+2. CSS 
 
 # Testing
 
-## W3C Validation
+Testing was carried out on HP Laptop, Macbook Pro, Iphone 11 and Samsung s22.
+
+ ## W3C Validation
+ The website raised no issues on W3C CSS or HTML 
+ ![Locations](assets/readme-images/w3c%20css%20wanderers.png)
+ ![Locations](assets/readme-images/wanderers-w3c.png)
 
 ## Lighthouse
+ The Website received a total score of 97 on Lighthouse.
+ ![Locations](assets/readme-images/Lighthouse-Report-Viewer.png
 
 # Bugs 
+
+Bug: Images on Iphone were zoomed in and not displaying correct image 
+fix: added Background-attachment:scrolled;
+
+Bug: 
+Fix:
 
 # Credits
 
 ## Code
 
+The code used for the Hamburger Icon was taken https://alvarotrigo.com/blog/hamburger-menu-css/.
+
+The code for the hovering design over the 3 images on the main pages was taken from https://css-tricks.com/. 
+
+Inspiration for the footer code was taken from The Love Running project.
+
+All the above code was reconfigured to be useable in the Wanderers Website.
+
 ## Images
+All images were taken from Unsplash.
 
 # Acknowledgement
+
+I would like to acknowledge all my collegues at the Code institute for helping me with some issues I had coding this site along with my partner who gave me advice in relation to UX design. 
 
 
 
