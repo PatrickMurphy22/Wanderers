@@ -117,11 +117,11 @@ The Full size background images provide the user with an incredible image of the
 
 On smaller screens the border containing the above information spreads to full width of the screen. 
 
-![Destinations](assets/images/Wanderers-footer.png)
+![Destinations](assets/images/Wanderers-locations1.png.png)
 
 ### Destination page on tablets and mobiles.
 
-![Destinations](assets/images/Wanderers-footer.png)
+![Destinations](assets/images/Wanderers-locations3.png.png)
 
 ## About Page
 
@@ -134,13 +134,13 @@ The about page contains:
 
 ### About page on Desktops.
 
-![About](assets/images/Wanderers-footer.png)
+![About](assets/images/Wanderers-about1.png)
 
 ### About page on tablets and mobiles.
 
 On smaller screens the images will turn into and the text will be placed above and below, to make sure that the images are still visible to users. 
 
-![About](assets/images/Wanderers-footer.png)
+![About](assets/images/wanderers-about2.png)
 
 ## Contact Page.
 
@@ -154,13 +154,13 @@ The contact page contains:
 
 ### Contact page on Desktop.
 
-![Contact](assets/images/Wanderers-footer.png)
+![Contact](assets/images/wanderers-contact.png)
 
 ### Contact page on tablets and mobiles.
 
 On smaller devices the page changes from flex - Rowm to Flex - Column
 
-![Contact](assets/images/Wanderers-footer.png)
+![Contact](assets/images/Wanderers-contact2.png) ![Contact](assets/images/Wanderers-contact3.png)
 
 
 
