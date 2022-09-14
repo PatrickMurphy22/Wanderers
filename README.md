@@ -117,11 +117,11 @@ The Full size background images provide the user with an incredible image of the
 
 On smaller screens the border containing the above information spreads to full width of the screen. 
 
-![Destinations](assets/images/Wanderers-locations1.png)
+![Destinations](assets/images/Wanderers-destinations1.png)
 
 ### Destination page on tablets and mobiles.
 
-![Destinations](assets/images/Wanderers-locations3.png)
+![Destinations](assets/images/wanderers-destinations2.png)
 
 ## About Page
 
@@ -172,13 +172,13 @@ Locations contains:
 6. 
 ### Locations page on Desktop.
 
-![Locations](assets/images/wanderers-contact.png)
+![Locations](assets/images/Wanderers-locations1.png)
 
 ### Locations page on tablets and mobiles.
 
 On smaller devices the page changes from flex - Rowm to Flex - Column
 
-![Locations](assets/images/Wanderers-contact3.png)
+![Locations](assets/images/Wanderers-locations3.png)
 
 ## Further Features 
 
