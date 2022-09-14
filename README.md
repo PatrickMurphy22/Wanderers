@@ -217,7 +217,7 @@ Fix: Changed css to have the name of the city visible on the images on screens b
 
 The code used for the Hamburger Icon was taken https://alvarotrigo.com/blog/hamburger-menu-css/.
 
-The code for the hovering design over the 3 images on the main pages was taken from https://css-tricks.com/. 
+The code for the hovering design over the 3 images on the main page was taken from https://css-tricks.com/. 
 
 Inspiration for the footer code was taken from The Love Running project.
 
