@@ -14,6 +14,7 @@ body{
 }  
 
     /* HEADER */
+
     #header-box {
         display: flex;
         flex-direction: row;
@@ -46,7 +47,7 @@ body{
         justify-content: center;
         align-items: center;
     }
-      
+      /* code attributed to https://alvarotrigo.com/blog/hamburger-menu-css/ */ 
     #menu-toggle {
         display: none;
     }
@@ -194,6 +195,8 @@ body{
         background-repeat: no-repeat;
         }
         
+        /* code attributed to https://css-tricks.com/ */  
+
     #index-section3-container * {
         box-sizing: border-box;
         transition: all 0.45s ease;
