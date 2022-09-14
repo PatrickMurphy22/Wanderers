@@ -20,7 +20,7 @@ ____
     * [About Page](#about-page)
     * [Contact Page](#contact-page)
     * [Location Pages](#location-pages)
-    * [Future Features](#future-features)
+    * [Further Features](#further-features)
 3. [User Experience (UX)](#user-experience-ux)
     * [Strategy](#strategysite-goals)
     * [Scope](#scopeuser-stories)
@@ -160,9 +160,31 @@ The contact page contains:
 
 On smaller devices the page changes from flex - Rowm to Flex - Column
 
-![Contact](assets/images/Wanderers-contact2.png) ![Contact](assets/images/Wanderers-contact3.png)
+![Contact](assets/images/Wanderers-contact3.png)
 
+## Locations
 
+Locations contains:
+1. The name of the travel location.
+2. The history of the travel location, followed by a captivating picture.
+3. Then food and attractions outline in a similar manner above. 
+5. The code is simple, and copied for the other 2 locations as its was the most practical way to impliment the code. 
+6. 
+### Locations page on Desktop.
+
+![Locations](assets/images/wanderers-contact.png)
+
+### Locations page on tablets and mobiles.
+
+On smaller devices the page changes from flex - Rowm to Flex - Column
+
+![Locations](assets/images/Wanderers-contact3.png)
+
+## Further Features 
+
+In the future, features can be added such as chatrooms for the community to communicate on rather than by using external means.
+
+The code is set to make it much easier for coder to change the locations every three months as the code was copied for each location. 
 
 
 
