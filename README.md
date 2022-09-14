@@ -13,7 +13,7 @@ ____
 1. [Overview](#overview)
 2. [Features](#features)  
     * [The Header](#the-header)
-    * [The Home Page](#the-home-page)
+    * [The landing section](#the-landing-section)
     * [The Citys Section](#a-back-to-top-link)
     * [The Footer](#the-footer)
     * [The About Page](#the-about-page)
@@ -62,10 +62,23 @@ Memebers of the community will be able to see what locations are being ventured 
 
 ### Header on mobiles & tablets screens
 
-
 ### Header on desktops
 
+## The Landing Section
 
-## The Home Page 
+   The Home page consists of a full screen hero image and text. This is to make the user experience much more streamlined and simple rather than overwhelming the user    with to many options.
+   
+### Landing Section on Desktops
 
+### Landing Section on mobile
+   
 ## The Citys Section
+   
+   The city section contains the 3 cities that are on the communities travel list for the next 3 months. This section has several different features.
+   
+   On Desktop's, the feature will be a hover action that displays the name of the location over the image which users can click on to take them directly to the city's    page.
+   
+### City Section on Desktop
+
+### City Section on Tablet / Mobile
+   
