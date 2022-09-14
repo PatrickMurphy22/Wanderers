@@ -205,10 +205,10 @@ Testing was carried out on HP Laptop, Macbook Pro, Iphone 11 and Samsung s22.
 
 Bug: Images on Iphone were zoomed in and not displaying correct image 
 
-fix: added Background-attachment:scrolled;
+fix: Added Background-attachment:scrolled; which fixed issue. 
 
-Bug: 
-Fix:
+Bug: On safari the hover image wasnt working and the text wouldnt appear for the cities on the home page.
+Fix: Changed css to have the name of the city visible on the images on screens below 550px.
 
 # Credits
 
