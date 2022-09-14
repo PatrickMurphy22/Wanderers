@@ -13,8 +13,8 @@ ____
 1. [Overview](#overview)
 2. [Features](#features)  
     * [The Header](#the-header)
-    * [The Landing Page](#the-landing-page)
-    * [Travel options section](#a-back-to-top-link)
+    * [The Home Page](#the-home-page)
+    * [The Citys Section](#a-back-to-top-link)
     * [The Footer](#the-footer)
     * [The About Page](#the-about-page)
     * [The Destinations Page](#the-destinations-page)
@@ -22,16 +22,15 @@ ____
     * [The Location Pages](#the-location-pages)
     * [Future Features](#future-features)
 3. [User Experience (UX)](#user-experience-ux)
-    * [Strategy / Site Goals](#strategysite-goals)
-    * [Scope / User Stories](#scopeuser-stories)
-    * [Structure / Design Choices](#structuredesign-choices)
-    * [Skeleton / Wireframes](#skeletonwireframes)
+    * [Strategy](#strategysite-goals)
+    * [Scope](#scopeuser-stories)
+    * [Structure](#structuredesign-choices)
+    * [Skeleton](#skeletonwireframes)
     * [Surface](#surface)
 4. [Technologies](#technologies)
 5. [Testing](#testing)
-    * [Validator Testing](#validator-testing)
-    * [Lighthouse Testing](#lighthouse-testing)
-    * [Manual Testing](#manual-testing)
+    * [Validator](#validator-testing)
+    * [Lighthouse](#lighthouse-testing)
 6. [Bugs](#bugs)
 7. [Citation of Sources](#citation-of-sources)
     * [Content](#content)
@@ -39,3 +38,34 @@ ____
 8. [Acknowledgements](#acknowledgements)
 
 ---
+# Overview
+
+The purpose of this project is to demonstrate my abilities in HTML and CSS. 
+
+It's responsive on Desktop, Tablets and Mobiles and works on multiple browsers. 
+
+The purpose of this website is to provide everyone and anyone the opportunity to travel with a community of like minded individuals. It's for everyone.
+
+Memebers of the community will be able to see what locations are being ventured to over the next 3 months. They can sign up to newsletters to see what dates the community will be at each location 
+
+---
+
+## The Header
+
+  Shown an all pages of the website.
+  
+  The header includes:
+  
+1. The title of the page  which contains a link to the landing page.
+2. 3 links, Destinations, About and Contact which will take the user to each corresponding page. 
+3. When screen size is reduced the 3 links will turn into a burger icon containing all 3 links.
+
+### Header on mobiles & tablets screens
+
+
+### Header on desktops
+
+
+## The Home Page 
+
+## The Citys Section
