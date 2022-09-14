@@ -12,14 +12,14 @@ ____
 
 1. [Overview](#overview)
 2. [Features](#features)  
-    * [The Header](#the-header)
-    * [The landing section](#the-landing-section)
-    * [The Citys Section](#a-back-to-top-link)
-    * [The Footer](#the-footer)
-    * [The About Page](#the-about-page)
-    * [The Destinations Page](#the-destinations-page)
-    * [The Contact Page](#the-contact-page)
-    * [The Location Pages](#the-location-pages)
+    * [Header](#the-header)
+    * [landing section](#landing-section)
+    * [Citys Section](#citys-section)
+    * [Footer](#footer)
+    * [Destinations Page](#destinations-page)
+    * [About Page](#about-page)
+    * [Contact Page](#contact-page)
+    * [Location Pages](#location-pages)
     * [Future Features](#future-features)
 3. [User Experience (UX)](#user-experience-ux)
     * [Strategy](#strategysite-goals)
@@ -50,7 +50,7 @@ Memebers of the community will be able to see what locations are being ventured 
 
 ---
 
-## The Header
+## Header
 
   Shown an all pages of the website.
   
@@ -68,15 +68,20 @@ Memebers of the community will be able to see what locations are being ventured 
 
 ![Header on different screen sizes](assets/images/Wanderers-header2.png)
 
-## The Landing Section
+## Landing Section
 
    The Home page consists of a full screen hero image and text. This is to make the user experience much more streamlined and simple rather than overwhelming the user    with to many options.
+   
+   Content: 
+   1. Image of a sole traveller hiking.
+   2. The dictionary definition of Wanderlust.
+   3. Call To Action to take users straight to the locations page. Where they can find the locations that the community will be traveling too. 
    
 ### Landing Section on Desktops
 
 ![Landing page on desktop](assets/images/wanderers-homepage.png)
    
-## The Citys Section
+## Citys Section
    
    The city section contains the 3 cities that are on the communities travel list for the next 3 months. This section has several different features.
    
@@ -89,6 +94,77 @@ Memebers of the community will be able to see what locations are being ventured 
 ### City Section on Tablet / Mobile
 
 ![City Section on different screen sizes](assets/images/Wanderers-section2-2.png)
+
+## The Footer
+
+Shown on all four pages.
+
+The footer contains 4 social media links and icons, which will take users to the social media pages for wanderers. It's straight forward and simple.
+
+![Footer](assets/images/Wanderers-footer.png)
+
+## Destinations Page
+
+The destination page contain:
+1. 3 selected travel destinations with a full background image. 
+2. The name of the Location.
+4. Very brief description and location of the city.
+5. Call To Action button to take the user to that location that they selected.
+
+The Full size background images provide the user with an incredible image of the location that selected. These images are selected to contrast eachother and show keep the user engaged.
+
+### Destination page on Desktop
+
+On smaller screens the border containing the above information spreads to full width of the screen. 
+
+![Destinations](assets/images/Wanderers-footer.png)
+
+### Destination page on tablets and mobiles.
+
+![Destinations](assets/images/Wanderers-footer.png)
+
+## About Page
+
+The about page contains:
+1. A quote from Dr. Suess, which is very simplistic but exciting.
+2. The desctiption of what the company/website aims to acheive. 
+3. The background of the About page is a simple black background with several pictures to excite the user of what is ahead of them. 
+4. The about page is very simple with only a few lines of text to quickly outline what the goal of the webiste/company is followed by some pictures. Keeping it simple to not overwhelm the user.
+5. The end of the about page has a Call To Action button to take the user straight to the Destinations page to straight travelling. 
+
+### About page on Desktops.
+
+![About](assets/images/Wanderers-footer.png)
+
+### About page on tablets and mobiles.
+
+On smaller screens the images will turn into and the text will be placed above and below, to make sure that the images are still visible to users. 
+
+![About](assets/images/Wanderers-footer.png)
+
+## Contact Page.
+
+The contact page contains:
+
+1. A full black background which again keeps it simple and doesnt over whelm the user.
+2. The Contact section has the email for the company and the phone number for user to contact the company.
+3. A google map link to show users where the HQ is located.
+4. The Sign-Up section has an input field for the users name and email address along with a radio buttons to select the type of traveling the user is most interested in. 
+5. Finally a submit button to submit the users information.
+
+### Contact page on Desktop.
+
+![Contact](assets/images/Wanderers-footer.png)
+
+### Contact page on tablets and mobiles.
+
+On smaller devices the page changes from flex - Rowm to Flex - Column
+
+![Contact](assets/images/Wanderers-footer.png)
+
+
+
+
 
 
    
