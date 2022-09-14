@@ -2,7 +2,7 @@
 
 Welcome to Wanderers! This is website for a fictional company called Wanderers. Wanderers is a company that provides people with a community of like minded people who want to explore everything the world has to offer. Travel can be daunting especially on your own, but with a community of wanderers at your back it will make the experience will be much more enjoyable.  
 
-![Website on multiple screen sizes](assets/images/Am-I-Responsive-.png)
+![Website on multiple screen sizes](assets/readme-images/Am-I-Responsive-.png)
 
 [Wanderers Live Website here](https://patrickmurphy22.github.io/Wanderers/index.html)
 
@@ -57,11 +57,11 @@ Memebers of the community will be able to see what locations are being ventured 
 
 ### Header on desktops.
 
-![Header on desktop](assets/images/wanderers-header.png)
+![Header on desktop](assets/readme-images/wanderers-header.png)
 
 ### Header on mobile & tablet screens
 
-![Header on different screen sizes](assets/images/Wanderers-header2.png)
+![Header on different screen sizes](assets/readme-images/Wanderers-header2.png)
 
 ## Landing Section
 
@@ -74,7 +74,7 @@ Memebers of the community will be able to see what locations are being ventured 
    
 ### Landing Section on Desktops
 
-![Landing page on desktop](assets/images/wanderers-homepage.png)
+![Landing page on desktop](assets/readme-images/wanderers-homepage.png)
    
 ## Citys Section
    
@@ -84,11 +84,11 @@ Memebers of the community will be able to see what locations are being ventured 
    
 ### City Section on Desktop
 
-![City Section on desktop](assets/images/wanderers-section2-1.png)
+![City Section on desktop](assets/readme-images/wanderers-section2-1.png)
 
 ### City Section on Tablet / Mobile
 
-![City Section on different screen sizes](assets/images/Wanderers-section2-2.png)
+![City Section on different screen sizes](assets/readme-images/Wanderers-section2-2.png)
 
 ## The Footer
 
@@ -96,7 +96,7 @@ Shown on all four pages.
 
 The footer contains 4 social media links and icons, which will take users to the social media pages for wanderers. It's straight forward and simple.
 
-![Footer](assets/images/Wanderers-footer.png)
+![Footer](assets/readme-images/Wanderers-footer.png)
 
 ## Destinations Page
 
@@ -110,13 +110,13 @@ The Full size background images provide the user with an incredible image of the
 
 ### Destination page on Desktop
 
-![Destinations](assets/images/Wanderers-destinations1.png)
+![Destinations](assets/readme-images/Wanderers-destinations1.png)
 
 ### Destination page on tablets and mobiles.
 
 On smaller screens the border containing the above information spreads to full width of the screen. 
 
-![Destinations](assets/images/wanderers-destinations2.png)
+![Destinations](assets/readme-images/wanderers-destinations2.png)
 
 ## About Page
 
@@ -129,13 +129,13 @@ The about page contains:
 
 ### About page on Desktops.
 
-![About](assets/images/Wanderers-about1.png)
+![About](assets/readme-images/Wanderers-about1.png)
 
 ### About page on tablets and mobiles.
 
 On smaller screens the images will turn into and the text will be placed above and below, to make sure that the images are still visible to users. 
 
-![About](assets/images/wanderers-about2.png)
+![About](assets/readme-images/wanderers-about2.png)
 
 ## Contact Page.
 
@@ -149,13 +149,13 @@ The contact page contains:
 
 ### Contact page on Desktop.
 
-![Contact](assets/images/wanderers-contact.png)
+![Contact](assets/readme-images/wanderers-contact.png)
 
 ### Contact page on tablets and mobiles.
 
 On smaller devices the page changes from flex - Rowm to Flex - Column
 
-![Contact](assets/images/Wanderers-contact3.png)
+![Contact](assets/readme-images/Wanderers-contact3.png)
 
 ## Locations
 
@@ -167,13 +167,13 @@ Locations contains:
 6. 
 ### Locations page on Desktop.
 
-![Locations](assets/images/Wanderers-locations1.png)
+![Locations](assets/readme-images/Wanderers-locations1.png)
 
 ### Locations page on tablets and mobiles.
 
 On smaller devices the page changes from flex - Rowm to Flex - Column
 
-![Locations](assets/images/Wanderers-locations3.png)
+![Locations](assets/readme-images/Wanderers-locations3.png)
 
 ## Further Features 
 
