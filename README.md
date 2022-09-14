@@ -21,7 +21,7 @@ ____
     * [Contact Page](#contact-page)
     * [Location Pages](#location-pages)
     * [Further Features](#further-features)
-3. [User Experience (UX)](#user-experience-ux)
+3. [User Experience (UX)](#user-experience)
     * [Strategy](#strategysite-goals)
     * [Scope](#scopeuser-stories)
     * [Structure](#structuredesign-choices)
@@ -115,11 +115,11 @@ The Full size background images provide the user with an incredible image of the
 
 ### Destination page on Desktop
 
-On smaller screens the border containing the above information spreads to full width of the screen. 
-
 ![Destinations](assets/images/Wanderers-destinations1.png)
 
 ### Destination page on tablets and mobiles.
+
+On smaller screens the border containing the above information spreads to full width of the screen. 
 
 ![Destinations](assets/images/wanderers-destinations2.png)
 
@@ -185,6 +185,8 @@ On smaller devices the page changes from flex - Rowm to Flex - Column
 In the future, features can be added such as chatrooms for the community to communicate on rather than by using external means.
 
 The code is set to make it much easier for coder to change the locations every three months as the code was copied for each location. 
+
+## User Experience 
 
 
 
